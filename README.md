@@ -2,7 +2,8 @@
 
 <!-- ====== HEADER / HERO ====== -->
 <div align="center">
-
+[![-----------------------------------------------------](
+https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](https://github.com/BaseMax?tab=repositories)
 <!-- Animated gradient name banner (uses an external SVG generator + typing for movement) -->
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=34&duration=3000&pause=600&color=00D1FF&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B,+I%27m+Biniyam.Bongrer" alt="typing" />
 
