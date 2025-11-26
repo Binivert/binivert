@@ -1,266 +1,179 @@
-<!--
-  README for: binivert
-  Display name: BINIYAM BONGER
-  Cyber signature: BINIV_X
-  Theme: Cyberpunk (dark blue + cyan)
-  NOTE: Paste this entire file into your profile README (https://github.com/binivert.binivert or https://github.com/binivert)
+<!-- 
+🔥 Designed for: BINIYAM BONGER (binivert) 
+🔥 Signature: BINIV_X
+🔥 Theme: NEON CYBERPUNK GLITCH
+🔥 Style: Minimal text, maximum animation, intense visuals
 -->
 
-<!-- ========== GLITCH ANIMATED HEADER ========== -->
-<table width="100%" cellpadding="0" cellspacing="0" style="background:#020922;">
+<!-- === GLITCH ANIMATED HEADER === -->
+<p align="center">
+  <img src="https://i.imgur.com/kbv020Z.gif" alt="NEON Cyberpunk Glitch Banner" width="100%"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&duration=2800&pause=800&color=82FFF4&background=00000000&center=true&random=false&vCenter=true&width=900&lines=BINIYAM+BONGER;Cyberpunk+AI+Architect;Deep+Learning+Explorer;BINIV_X+Terminal+//+Online" alt="Typing SVG" />
+  <br>
+  <img src="https://i.imgur.com/aHk4CnE.gif" alt="Glitch Name" width="640"/>
+</p>
+
+<!-- === CYBERPUNK GLITCH DIVIDER === -->
+<p align="center">
+  <img src="https://i.imgur.com/EC2stIT.gif" width="90%" alt="Glitch Divider"/>
+</p>
+
+<!-- === IDENTITY | WHO I AM === -->
+<p align="center">
+  <img src="https://i.imgur.com/vosHUQ6.gif" width="140" alt="Cyber AI Icon"/>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Artificial%20Intelligence-0ff2fc?style=for-the-badge&logo=artstation&logoColor=blue" />
+  <img src="https://img.shields.io/badge/Deep%20Learning-00d7ff?style=for-the-badge&logo=tensorflow&logoColor=cyan"/>
+  <img src="https://img.shields.io/badge/Computer%20Vision-1E32FA?style=for-the-badge&logo=github&logoColor=cyan"/>
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/uaLacew.gif" width="60%" alt="Neon Glitch">
+</p>
+<h2 align="center"><span style="color:#82faff;">AI x Vision x Code</span></h2>
+<p align="center"><b>↓</b></p>
+
+<!-- === CYBERPUNK GLITCH DIVIDER === -->
+<p align="center">
+  <img src="https://i.imgur.com/BUnXvRG.gif" width="92%" alt="Neon Divider"/>
+</p>
+
+<!-- === SKILLS SECTION (CYBER GRID) === -->
+<h2 align="center">
+  <img src="https://i.imgur.com/3hHq7Qc.gif" width="41" style="vertical-align:middle"/> <span style="color:#00fff7;">[ SKILLS ]</span>
+</h2>
+
+<table align="center" width="80%">
   <tr>
-    <td align="center" style="padding:28px 12px;">
-      <!-- Neon background banner (wide) -->
-      <div align="center" style="width:100%;max-width:1100px;border-radius:16px;overflow:hidden;box-shadow:0 8px 40px rgba(0,0,0,0.7);">
-        <img src="https://i.imgur.com/5QFf9bY.gif" alt="cyberpunk-banner" width="100%" style="display:block;filter:contrast(1.05) saturate(1.2);"/>
-        <div style="position:relative;margin-top:-120px;padding:24px 40px;background:linear-gradient(180deg, rgba(0,8,30,0.45), rgba(0,2,10,0.6));backdrop-filter: blur(6px);">
-          <!-- Glitch name (SVG-like via animated GIF) -->
-          <div>
-            <img src="https://i.imgur.com/3Y8fJ2J.gif" alt="glitch-name" style="max-width:640px;width:85%;display:block;margin:0 auto 12px auto;" />
-          </div>
-
-          <!-- Typing effect -->
-          <div align="center" style="margin-top:6px;">
-            <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=2000&color=00e5ff&center=true&vCenter=true&width=720&lines=AI+Engineer;Computer+Vision+|+Deep+Learning;Realtime+Vision+&+Robotics" alt="typing" />
-          </div>
-
-          <!-- Cyber signature -->
-          <div align="center" style="margin-top:18px;">
-            <span style="font-family:monospace;font-weight:700;color:#00e5ff;font-size:13px;letter-spacing:2px;background:rgba(0,229,255,0.04);padding:6px 12px;border-radius:8px;border:1px solid rgba(0,229,255,0.06);">
-              CYBER SIGNATURE — <span style="color:#9ff6ff">BINIV_X</span>
-            </span>
-          </div>
-        </div>
-      </div>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48"/><br><b style="color:#00fff7;">Python</b>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="48"/><br><b style="color:#00fff7;">OpenCV</b>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="48"/><br><b style="color:#00fff7;">TensorFlow</b>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="48"/><br><b style="color:#00fff7;">PyTorch</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48"/><br><b style="color:#00fff7;">Pandas</b>
+    </td>
+    <td align="center">
+      <img src="https://i.imgur.com/8K5xAIN.png" width="48"/><br><b style="color:#00fff7;">MediaPipe</b>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="48"/><br><b style="color:#00fff7;">GitHub</b>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="48"/><br><b style="color:#00fff7;">Linux</b>
     </td>
   </tr>
 </table>
 
-<!-- ========== ANIMATED DIVIDER ========== -->
-<p align="center" style="margin:18px 0;">
-  <img src="https://i.imgur.com/2d7vG4W.gif" alt="divider-glitch" width="88%" style="max-width:1100px;border-radius:12px;box-shadow:0 6px 30px rgba(0,0,0,0.6);"/>
+<!-- === CYBERPUNK GLITCH DIVIDER === -->
+<p align="center">
+  <img src="https://i.imgur.com/FsZ5T2R.gif" width="94%" alt="Glitch Divider"/>
 </p>
 
-<!-- ========== IDENTITY / WHO I AM ========== -->
-<table align="center" width="880" style="max-width:95%;background:#021027;border-radius:12px;padding:18px;border:1px solid rgba(0,229,255,0.06);">
-  <tr>
-    <td valign="middle" style="padding:12px 18px;">
-      <h2 style="margin:6px 0 4px 0;color:#00e5ff;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial,'Noto Sans',sans-serif;">
-        WHO I AM
-      </h2>
-      <p style="margin:6px 0 12px 0;color:#9be5ff;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Courier New", monospace;">
-        Minimal • AI / Deep Learning • Computer Vision • Real-time systems
-      </p>
+<!-- === GITHUB WIDGETS GRID DASHBOARD === -->
+<h2 align="center">
+  <img src="https://i.imgur.com/DxTbkh8.gif" width="40" style="vertical-align:middle"/>
+  <span style="color:#2dc8ff;">[ GITHUB CYBER DASHBOARD ]</span>
+</h2>
 
-      <!-- AI-focused badges (dark cyan) -->
-      <p style="margin:8px 0 0 0;">
-        <img src="https://img.shields.io/badge/AI-Deep%20Learning-00e5ff?style=for-the-badge&logo=neuralink" alt="ai-badge" />
-        <img src="https://img.shields.io/badge/Computer%20Vision-OpenCV-00e5ff?style=for-the-badge&logo=opencv" alt="cv-badge" />
-        <img src="https://img.shields.io/badge/Realtime-Inference-00e5ff?style=for-the-badge&logo=googlecloud" alt="realtime" />
-      </p>
+<table align="center" width="100%">
+  <tr>
+    <td align="center" colspan="2">
+      <img src="https://github-readme-stats.vercel.app/api?username=binivert&theme=react&bg_color=121c3b&title_color=25fff4&icon_color=00fff7&text_color=00fff7&show_icons=true&hide_border=true" width="440"/>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=binivert&theme=highcontrast&hide_border=true&stroke=00faff&ring=02cfff&fire=00fff7&currStreakNum=20fff4&sideNums=15e3fc&background=1f2232" width="350"/>
     </td>
   </tr>
-</table>
-
-<!-- ========== ANIMATED DIVIDER ========== -->
-<p align="center" style="margin:18px 0;">
-  <img src="https://i.imgur.com/qkBC0sF.gif" alt="divider-2" width="88%" style="max-width:1100px;border-radius:12px;box-shadow:0 6px 30px rgba(0,0,0,0.55);"/>
-</p>
-
-<!-- ========== SKILLS (GRID) ========== -->
-<table align="center" width="880" style="max-width:95%;background:#021027;border-radius:12px;padding:18px;border:1px solid rgba(0,229,255,0.05);">
   <tr>
-    <td>
-      <h2 style="color:#00e5ff;margin:4px 0 8px 0;">SKILLS</h2>
-      <!-- Grid using HTML table -->
-      <table align="center" width="100%" style="table-layout:fixed;">
-        <tr>
-          <td align="center" style="padding:12px;">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="46" alt="python"/><br/>
-            <span style="color:#9be5ff;font-family:monospace;">Python</span>
-          </td>
-          <td align="center" style="padding:12px;">
-            <img src="https://raw.githubusercontent.com/opencv/opencv/master/samples/dnn/face_detector/opencv_logo.png" width="46" alt="opencv"/><br/>
-            <span style="color:#9be5ff;font-family:monospace;">OpenCV</span>
-          </td>
-          <td align="center" style="padding:12px;">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="46" alt="tensorflow"/><br/>
-            <span style="color:#9be5ff;font-family:monospace;">TensorFlow</span>
-          </td>
-          <td align="center" style="padding:12px;">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="46" alt="pytorch"/><br/>
-            <span style="color:#9be5ff;font-family:monospace;">PyTorch</span>
-          </td>
-        </tr>
-
-        <tr>
-          <td align="center" style="padding:12px;">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="46" alt="pandas"/><br/>
-            <span style="color:#9be5ff;font-family:monospace;">Pandas</span>
-          </td>
-          <td align="center" style="padding:12px;">
-            <img src="https://seeklogo.com/images/M/mediapipe-logo-6E0F4CC7E9-seeklogo.com.png" width="46" alt="mediapipe"/><br/>
-            <span style="color:#9be5ff;font-family:monospace;">MediaPipe</span>
-          </td>
-          <td align="center" style="padding:12px;">
-            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="46" alt="github"/><br/>
-            <span style="color:#9be5ff;font-family:monospace;">Git & GitHub</span>
-          </td>
-          <td align="center" style="padding:12px;">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="46" alt="linux"/><br/>
-            <span style="color:#9be5ff;font-family:monospace;">Linux</span>
-          </td>
-        </tr>
-      </table>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=binivert&layout=compact&theme=radical&bg_color=161e34&title_color=39eaff&text_color=1fe2ff&hide_border=true&langs_count=7" width="320"/>
+    </td>
+    <td align="center">
+      <img src="https://github-profile-trophy.vercel.app/?username=binivert&theme=onedark&column=6&margin-w=10&no-bg=true&title=Followers,Stars,Commit,PullRequest,Issues,Repositories" width="420"/>
     </td>
   </tr>
-</table>
-
-<!-- ========== CYBER GIF BANNER ========== -->
-<p align="center" style="margin:18px 0;">
-  <img src="https://i.imgur.com/8KQWqYc.gif" alt="cyber-gif" width="88%" style="max-width:1100px;border-radius:12px;box-shadow:0 6px 30px rgba(0,0,0,0.6);" />
-</p>
-
-<!-- ========== ALL GITHUB WIDGETS GRID ========== -->
-<p align="center" style="margin:4px 0 0 0;color:#00e5ff;font-weight:700;">GITHUB DASHBOARD</p>
-
-<table align="center" width="1100" style="max-width:95%;background:#01061a;border-radius:12px;padding:14px;border:1px solid rgba(0,229,255,0.04);">
   <tr>
-    <!-- Row 1: Stats, Streak, Top Languages -->
-    <td align="center" width="50%" style="padding:8px;vertical-align:top;">
-      <!-- GitHub Stats (vercel) -->
-      <div style="background:#001025;padding:8px;border-radius:10px;border:1px solid rgba(0,229,255,0.03);">
-        <img src="https://github-readme-stats.vercel.app/api?username=binivert&show_icons=true&theme=dark&hide_border=true&icon_color=00e5ff&title_color=00e5ff&text_color=9be5ff" alt="github-stats" width="100%" style="max-width:520px;border-radius:8px;"/>
-      </div>
+    <td align="center">
+      <img src="https://activity-graph.herokuapp.com/graph?username=binivert&theme=react-dark&bg_color=121c3b&color=2aeeff&line=00fff7&point=1787ff&hide_border=true" width="95%"/>
     </td>
-
-    <td align="center" width="50%" style="padding:8px;vertical-align:top;">
-      <table width="100%" style="border-collapse:collapse;">
-        <tr>
-          <td style="padding:6px;">
-            <!-- Streak Stats -->
-            <div style="background:#001025;padding:8px;border-radius:10px;border:1px solid rgba(0,229,255,0.03);">
-              <img src="https://github-readme-streak-stats.herokuapp.com/?user=binivert&theme=dark-blue&hide_border=true" alt="streak" width="100%" style="max-width:520px;border-radius:8px;"/>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding:6px;">
-            <!-- Top Languages -->
-            <div style="background:#001025;padding:8px;border-radius:10px;border:1px solid rgba(0,229,255,0.03);">
-              <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=binivert&layout=compact&theme=dark&hide_border=true" alt="top-langs" width="100%" style="max-width:520px;border-radius:8px;"/>
-            </div>
-          </td>
-        </tr>
-      </table>
+    <td align="center">
+      <img src="https://github.com/binivert/github-contribution-grid-snake/blob/output/github-contribution-grid-snake-dark.svg" width="100%" />
     </td>
   </tr>
-
   <tr>
-    <!-- Row 2: Profile Trophy + Activity Graph (side-by-side) -->
-    <td align="center" style="padding:10px;vertical-align:top;">
-      <div style="background:#001025;padding:10px;border-radius:10px;border:1px solid rgba(0,229,255,0.03);">
-        <!-- Profile Trophy Grid -->
-        <img src="https://github-profile-trophy.vercel.app/?username=binivert&theme=onedark&no-frame=true&row=1&margin-w=8&margin-h=12" alt="trophies" width="100%" style="max-width:520px;border-radius:8px;" />
-      </div>
+    <td align="center">
+      <img src="https://github.com/Ashutosh00710/github-readme-activity-graph/raw/main/github-activity-graph.gif?username=binivert" width="90%" />
     </td>
-
-    <td align="center" style="padding:10px;vertical-align:top;">
-      <div style="background:#001025;padding:10px;border-radius:10px;border:1px solid rgba(0,229,255,0.03);">
-        <!-- Contribution Activity Graph -->
-        <img src="https://activity-graph.herokuapp.com/graph?username=binivert&theme=react-dark&hide_border=true" alt="activity-graph" width="100%" style="max-width:520px;border-radius:8px;" />
-      </div>
+    <td align="center">
+      <img src="https://github-contributions-api.deno.dev/binivert.svg" width="95%" />
     </td>
   </tr>
-
   <tr>
-    <!-- Row 3: Code Frequency / Contributions Graph & Repo Size / Last Commit badges -->
-    <td align="center" style="padding:10px;vertical-align:top;">
-      <div style="background:#001025;padding:10px;border-radius:10px;border:1px solid rgba(0,229,255,0.03);">
-        <!-- Code Frequency graph (from GitHub API via ghchart) -->
-        <img src="https://ghchart.rshah.org/binivert" alt="3D-contrib-graph" width="100%" style="max-width:520px;border-radius:8px;"/>
-        <div style="margin-top:8px;">
-          <img src="https://img.shields.io/github/languages/code-size/binivert/binivert?style=for-the-badge&label=Repo%20Size&color=00e5ff" alt="repo-size" />
-          <img src="https://img.shields.io/github/last-commit/binivert/binivert?style=for-the-badge&label=Last%20Commit&color=00e5ff" alt="last-commit" />
-        </div>
-      </div>
+    <td align="center">
+      <img src="https://ghchart.rshah.org/2efafd/binivert" width="92%"/>
     </td>
-
-    <td align="center" style="padding:10px;vertical-align:top;">
-      <div style="background:#001025;padding:10px;border-radius:10px;border:1px solid rgba(0,229,255,0.03);">
-        <!-- Snake eating contributions animation (fun widget) -->
-        <img src="https://github-readme-snake-game.vercel.app/binivert" alt="snake" width="100%" style="max-width:520px;border-radius:8px;"/>
-        <div style="margin-top:8px;">
-          <!-- Additional visualizers -->
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=binivert&theme=dark" alt="most-commit-lang" style="margin-right:6px;border-radius:6px;" />
-          <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=binivert&theme=dark" alt="productive-time" style="border-radius:6px;" />
-        </div>
-      </div>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/muety/wakapi/master/static/img/readme-widget-dark.svg?user=binivert" width="92%"/>
     </td>
   </tr>
-
   <tr>
-    <!-- Row 4: Additional widgets (side-by-side) -->
-    <td align="center" style="padding:10px;vertical-align:top;">
-      <div style="background:#001025;padding:10px;border-radius:10px;border:1px solid rgba(0,229,255,0.03);">
-        <!-- 3D Contribution Graph (night mode style) -->
-        <img src="https://streak-stats.demolab.org?user=binivert&theme=dark&mode=night&border=true" alt="3d-night" width="100%" style="max-width:520px;border-radius:8px;" />
-      </div>
-    </td>
-
-    <td align="center" style="padding:10px;vertical-align:top;">
-      <div style="background:#001025;padding:10px;border-radius:10px;border:1px solid rgba(0,229,255,0.03);">
-        <!-- Any additional online visualizers -->
-        <img src="https://contrib.rocks/image?username=binivert&range=alltime&theme=dark&mode=flat" alt="contrib-rocks" width="100%" style="max-width:520px;border-radius:8px;" />
-      </div>
-    </td>
-  </tr>
-</table>
-
-<!-- ========== CYBER GIF BANNER ========== -->
-<p align="center" style="margin:18px 0;">
-  <img src="https://i.imgur.com/FK3Uj4N.gif" alt="divider-glitch-3" width="88%" style="max-width:1100px;border-radius:12px;box-shadow:0 6px 30px rgba(0,0,0,0.6);" />
-</p>
-
-<!-- ========== CONTACT SECTION (Instagram only) ========== -->
-<table align="center" width="720" style="max-width:95%;background:#021027;border-radius:12px;padding:14px;border:1px solid rgba(0,229,255,0.04);">
-  <tr>
-    <td align="center" style="padding:12px;">
-      <h3 style="color:#00e5ff;margin:4px 0 6px 0;">CONTACT</h3>
-      <p style="color:#9be5ff;margin:6px 0 12px 0;">Follow the neon — Instagram only</p>
-
-      <!-- Neon Instagram badge -->
-      <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" style="text-decoration:none;">
-        <img src="https://img.shields.io/badge/Instagram-@binivert-00e5ff?style=for-the-badge&logo=instagram" alt="instagram" />
+    <td align="center">
+      <a href="https://github.com/binivert/">
+        <img src="https://img.shields.io/github/repo-size/binivert/binivert?color=0ff2fc&style=for-the-badge&label=Profile+Repo+Size"/>
+        <img src="https://img.shields.io/github/last-commit/binivert/binivert?style=for-the-badge&color=00fff7"/>
       </a>
     </td>
+    <td align="center">
+      <img src="https://skyline.github.com/binivert/2025.svg" width="94%" alt="3D Contribution Graph"/>
+    </td>
   </tr>
 </table>
 
-<!-- ========== CYBERPUNK SIGNATURE ========== -->
-<p align="center" style="margin:18px 0;">
-  <img src="https://i.imgur.com/1Q9Z6Qy.gif" alt="signature-line" width="88%" style="max-width:1100px;border-radius:12px;"/>
+<!-- === CYBERPUNK GLITCH DIVIDER === -->
+<p align="center">
+  <img src="https://i.imgur.com/DkUFezU.gif" width="94%" alt="Futuristic Divider"/>
 </p>
 
-<div align="center" style="background:#000714;padding:22px;border-radius:12px;max-width:1100px;margin:0 auto;border:1px solid rgba(0,229,255,0.04);">
-  <h2 style="color:#00e5ff;margin:6px 0 6px 0;font-family:monospace;">BINI V_X</h2>
-  <p style="color:#9be5ff;margin:6px 0 0 0;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, 'Courier New', monospace;">
-    <span style="letter-spacing:2px;">— FUTURISTIC CODE, VISION, & RESEARCH —</span>
-  </p>
-  <div style="margin-top:12px;">
-    <img src="https://i.imgur.com/6F3N9vR.gif" alt="signature-glitch" width="420" style="max-width:85%;border-radius:10px;box-shadow:0 8px 40px rgba(0,0,0,0.6);" />
-  </div>
-</div>
-
-<!-- ========== FOOTER DIVIDER ========== -->
-<p align="center" style="margin:18px 0 36px 0;">
-  <img src="https://i.imgur.com/2d7vG4W.gif" alt="footer-divider" width="88%" style="max-width:1100px;border-radius:12px;"/>
+<!-- === CYBERPUNK GIFS === -->
+<p align="center">
+  <img src="https://i.imgur.com/ItLydUE.gif" width="80%" alt="Code Rain"/>
+  <img src="https://i.imgur.com/5BDKkJX.gif" width="75%" alt="Neon Circuit Glitch"/>
+  <img src="https://i.imgur.com/LSmkEBs.gif" width="70%" alt="Glitch Screen"/>
+  <img src="https://i.imgur.com/h3JNY3p.gif" width="80%" alt="Cyan Code Terminal"/>
 </p>
 
-<!-- ========== NOTES: (Hidden, safe for edit) ========== -->
-<!--
-  Tips:
-  • Replace the Instagram URL above with your exact handle: https://www.instagram.com/<your-handle>/
-  • If any widget service needs tokenless access removed, replace with equivalent trusted service.
-  • All images are chosen for dark-blue + cyan neon look. Swap any GIF with another Imgur-hosted GIF if you'd like a different style.
--->
+<!-- === CYBERPUNK GLITCH DIVIDER === -->
+<p align="center">
+  <img src="https://i.imgur.com/EC2stIT.gif" width="90%" alt="Glitch Divider"/>
+</p>
+
+<!-- === CONTACT SECTION === -->
+<h2 align="center">
+  <img src="https://i.imgur.com/vG08ycD.gif" width="39" style="vertical-align:middle"/>
+  <span style="color:#06e9ff;">[ CONNECT ]</span>
+</h2>
+<p align="center">
+  <a href="https://instagram.com/binivert">
+    <img src="https://img.shields.io/badge/Instagram-binivert-0ff2fc?style=for-the-badge&logo=instagram&logoColor=cyan&labelColor=1a253e" />
+  </a>
+</p>
+
+<!-- === CYBERPUNK GLITCH DIVIDER === -->
+<p align="center">
+  <img src="https://i.imgur.com/BUnXvRG.gif" width="92%" alt="Glitch Divider"/>
+</p>
+
+<!-- === SIGNATURE === -->
+<p align="center">
+  <img src="https://i.imgur.com/o4PYBMn.gif" width="540" alt="BINIV_X Glitch Signature"/>
+  <br>
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=26&duration=4000&pause=1000&color=32FCFF&background=00000000&lines=BINI+V_X+-+END+OF+LINE_;=={#}" alt="Glitch Terminal"/>
+</p>
