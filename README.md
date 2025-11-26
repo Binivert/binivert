@@ -1,121 +1,121 @@
-<div align="center">
+<!-- ===================================================== -->
+<!-- CYBERPUNK README for binivert -->
+<!-- ===================================================== -->
 
-<!-- GLITCH HEADER -->
-<img src="https://i.imgur.com/5rQ12p3.gif" width="100%"/>
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=35&duration=4000&color=00F7FF&center=true&vCenter=true&width=500&height=70&lines=BINIYAM+BONGER" alt="Typing SVG"/>
-</div>
+<!-- Glitch Animated Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&color=00F7FF&size=25&center=true&vCenter=true&width=500&height=40&lines=AI+ENGINEER;COMPUTER+VISION;DEEP+LEARNING" alt="Title Typing" />
+  <img src="https://i.imgur.com/8fX9K7F.gif" width="100%" alt="Cyberpunk Neon Glitch Banner"/>
 </p>
-<img src="https://i.imgur.com/5rQ12p3.gif" width="100%"/>
 
-<!-- IDENTITY SECTION -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=40&duration=3000&color=00FFFF&center=true&vCenter=true&width=800&height=100&lines=BINIYAM+BONGER;aka+BINIV_X;Cyberpunk+AI+Architect;Deep+Learning+%7C+Computer+Vision+%7C+Futurism" alt="Typing SVG"/>
+</h1>
+
+<p align="center">
+  <img src="https://i.imgur.com/3fJ1b8C.gif" width="100%" alt="Glitch Divider"/>
+</p>
+
+<!-- Identity / Who I Am -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Artificial%20Intelligence-00FFFF?style=for-the-badge&logo=artstation&logoColor=cyan"/>
+  <img src="https://img.shields.io/badge/Deep%20Learning-001F3F?style=for-the-badge&logo=tensorflow&logoColor=cyan"/>
+  <img src="https://img.shields.io/badge/Computer%20Vision-00FFFF?style=for-the-badge&logo=opencv&logoColor=cyan"/>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/3fJ1b8C.gif" width="100%" alt="Glitch Divider"/>
+</p>
+
+<!-- Skills Section -->
+<h2 align="center">⚡ Skills Dashboard ⚡</h2>
+
 <table align="center">
-<tr>
-<td width="50%">
+  <tr>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60"/><br>Python</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="60"/><br>OpenCV</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="60"/><br>TensorFlow</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="60"/><br>PyTorch</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="60"/><br>Pandas</td>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/13810373?s=200&v=4" width="60"/><br>MediaPipe</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="60"/><br>GitHub</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="60"/><br>Linux</td>
+  </tr>
+</table>
 
-## 🖥️ **SYSTEM_IDENTITY**
+<p align="center">
+  <img src="https://i.imgur.com/3fJ1b8C.gif" width="100%" alt="Glitch Divider"/>
+</p>
 
+<!-- GitHub Widgets -->
+<h2 align="center">🚀 GitHub Cyber Dashboard 🚀</h2>
 
-class CyberEngineer:
-    def __init__(self):
-        self.name = "BINIYAM BONGER"
-        self.handle = "BINIV_X"
-        self.domain = "Artificial Intelligence"
-        self.specializations = [
-            "Deep Learning",
-            "Computer Vision", 
-            "Neural Networks",
-            "Machine Intelligence"
-        ]
-        
-    def activate_systems(self):
-        return "SYSTEMS_ONLINE"
-</td> <td width="50%">
-🛠️ CORE_COMPETENCIES
-<div align="center">
-https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117
-https://img.shields.io/badge/TENSORFLOW-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=0d1117
-https://img.shields.io/badge/OPENCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white&labelColor=0d1117
-https://img.shields.io/badge/PYTORCH-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=0d1117
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=binivert&show_icons=true&theme=tokyonight&title_color=00FFFF&icon_color=00FFFF&text_color=00FFFF&bg_color=0A0F1C"/>
+    </td>
+    <td>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=binivert&theme=tokyonight&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=binivert&layout=compact&theme=tokyonight&title_color=00FFFF&text_color=00FFFF&bg_color=0A0F1C"/>
+    </td>
+    <td>
+      <img src="https://github-profile-trophy.vercel.app/?username=binivert&theme=tokyonight&column=4&margin-w=15&margin-h=15&no-frame=true&title_color=00FFFF"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=binivert&theme=tokyo-night&color=00FFFF&line=00FFFF&point=00FFFF&bg_color=0A0F1C"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-contribution-stats.vercel.app/api?username=binivert&theme=tokyonight&title_color=00FFFF&text_color=00FFFF"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-snake.vercel.app/api?username=binivert&theme=tokyonight&color=00FFFF"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github.com/ashutosh00710/github-readme-3d-contrib/blob/master/profile-night-rainbow.svg" width="100%"/>
+    </td>
+  </tr>
+</table>
 
-https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=0d1117
-https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117
-https://img.shields.io/badge/MEDIAPIPE-4285F4?style=for-the-badge&logo=google&logoColor=white&labelColor=0d1117
-https://img.shields.io/badge/PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white&labelColor=0d1117
+<p align="center">
+  <img src="https://i.imgur.com/3fJ1b8C.gif" width="100%" alt="Glitch Divider"/>
+</p>
 
-</div></td> </tr> </table><img src="https://i.imgur.com/r5C8y6n.gif" width="100%"/><!-- GITHUB WIDGETS GRID -->
-📊 SYSTEM_DASHBOARD
-<table> <tr> <td width="50%" valign="top">
-🏆 PROFILE_TROPHIES
-<div align="center">
-https://github-profile-trophy.vercel.app/?username=binivert&theme=onedark&no-frame=true&row=2&column=4
+<!-- Cyberpunk GIFs -->
+<p align="center">
+  <img src="https://i.imgur.com/9b0pUuO.gif" width="100%" alt="Code Rain"/>
+</p>
 
-</div>
-🔥 STREAK_STATS
-<div align="center">
-https://streak-stats.demolab.com/?user=binivert&theme=dark&background=0d1117&border=00F7FF&stroke=00F7FF&ring=00F7FF&fire=00F7FF&currStreakNum=00F7FF&sideNums=00F7FF&currStreakLabel=00F7FF&sideLabels=00F7FF&dates=8B949E
+<!-- Contact Section -->
+<h2 align="center">📡 Connect</h2>
+<p align="center">
+  <a href="https://instagram.com/biniv_x">
+    <img src="https://img.shields.io/badge/Instagram-00FFFF?style=for-the-badge&logo=instagram&logoColor=cyan"/>
+  </a>
+</p>
 
-</div>
-📈 ACTIVITY_GRAPH
-<div align="center">
-https://github-readme-activity-graph.vercel.app/graph?username=binivert&bg_color=0d1117&color=00f7ff&line=00f7ff&point=00f7ff&area=true&hide_border=true
+<p align="center">
+  <img src="https://i.imgur.com/3fJ1b8C.gif" width="100%" alt="Glitch Divider"/>
+</p>
 
-</div></td> <td width="50%" valign="top">
-📊 GITHUB_STATS
-<div align="center">
-https://github-readme-stats.vercel.app/api?username=binivert&show_icons=true&theme=dark&bg_color=0d1117&title_color=00f7ff&icon_color=00f7ff&text_color=8b949e&hide_border=true
+<!-- Cyberpunk Signature -->
+<h2 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=30&duration=3000&color=00FFFF&center=true&vCenter=true&width=600&height=80&lines=BINIV_X;Cyberpunk+Signature;Glitch+Reality"/>
+</h2>
 
-</div>
-💻 TOP_LANGUAGES
-<div align="center">
-https://github-readme-stats.vercel.app/api/top-langs/?username=binivert&layout=compact&theme=dark&bg_color=0d1117&title_color=00f7ff&text_color=8b949e&hide_border=true
-
-</div>
-🐍 CONTRIBUTION_SNAKE
-<div align="center">
-https://github.com/binivert/binivert/blob/output/github-contribution-grid-snake.svg
-
-</div></td> </tr> </table><!-- 3D CONTRIBUTIONS --><div align="center">
-🌌 3D_CONTRIBUTIONS
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=binivert&layout=compact&theme=dark&bg_color=0d1117&title_color=00f7ff&text_color=8b949e&hide_border=true&custom_title=CODING_ACTIVITY" /></div><img src="https://i.imgur.com/r5C8y6n.gif" width="100%"/><!-- SKILLS GRID -->
-⚡ TECHNICAL_MATRIX
-<table align="center"> <tr> <td align="center" width="100">
-https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white
-PYTHON
-
-</td> <td align="center" width="100">
-https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white
-TENSORFLOW
-
-</td> <td align="center" width="100">
-https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
-PYTORCH
-
-</td> </tr> <tr> <td align="center" width="100">
-https://img.shields.io/badge/-OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white
-OPENCV
-
-</td> <td align="center" width="100">
-https://img.shields.io/badge/-MediaPipe-4285F4?style=for-the-badge&logo=google&logoColor=white
-MEDIAPIPE
-
-</td> <td align="center" width="100">
-https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black
-LINUX
-
-</td> </tr> </table><img src="https://i.imgur.com/r5C8y6n.gif" width="100%"/><!-- CONTACT & SIGNATURE -->
-📡 NETWORK_INTERFACE
-<div align="center">
-🔗 SOCIAL_PROTOCOL
-https://img.shields.io/badge/INSTAGRAM-%2523E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white&labelColor=0d1117&color=00F7FF
-
-</div>
-<div align="center"><!-- CYBERPUNK SIGNATURE --><img src="https://i.imgur.com/5rQ12p3.gif" width="100%"/>
-BINIV_X
-SYSTEM_ARCHITECT
-<img src="https://i.imgur.com/5rQ12p3.gif" width="100%"/>
-https://komarev.com/ghpvc/?username=binivert&color=00F7FF&style=for-the-badge&label=TERMINAL_ACCESS
-
-</div></div> 
+<p align="center">
+  <img src="https://i.imgur.com/8fX9K7F.gif" width="100%" alt="Cyberpunk Footer"/>
+</p>
