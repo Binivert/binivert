@@ -1,229 +1,121 @@
-<!-- ============================ -->
-<!--      GLITCH HEADER ZONE      -->
-<!-- ============================ -->
+<div align="center">
 
+<!-- GLITCH HEADER -->
+<img src="https://i.imgur.com/5rQ12p3.gif" width="100%"/>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=35&duration=4000&color=00F7FF&center=true&vCenter=true&width=500&height=70&lines=BINIYAM+BONGER" alt="Typing SVG"/>
+</div>
 <p align="center">
-  <img src="https://i.imgur.com/0NdCq4y.gif" width="100%" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&color=00F7FF&size=25&center=true&vCenter=true&width=500&height=40&lines=AI+ENGINEER;COMPUTER+VISION;DEEP+LEARNING" alt="Title Typing" />
 </p>
+<img src="https://i.imgur.com/5rQ12p3.gif" width="100%"/>
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=32&duration=3000&pause=500&color=00F0FF&center=true&vCenter=true&width=650&lines=BINIYAM+BONGER;BINIV_X+//+NEURAL+CITY+OPERATIVE;AI+%7C+Deep+Learning+%7C+Computer+Vision" />
-</h1>
-
-<p align="center">
-  <img src="https://i.imgur.com/9L0xWnR.gif" width="60%" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://i.imgur.com/8uZr9F8.gif" width="100%" />
-</p>
-
-<!-- ============================ -->
-<!--        IDENTITY ZONE        -->
-<!-- ============================ -->
-
-<p align="center">
-  <img src="https://i.imgur.com/1XoQw9G.gif" width="70%" />
-</p>
-
-<p align="center">
-  <code style="font-size:16px;">AI · Deep Learning · Computer Vision · Real‑Time Perception</code>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI%20Engineer-CYAN?style=for-the-badge&logo=tensorflow&logoColor=00FFFF&labelColor=001122" />
-  <img src="https://img.shields.io/badge/Deep%20Learning-001133?style=for-the-badge&logo=pytorch&logoColor=00FFFF" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-001133?style=for-the-badge&logo=opencv&logoColor=00FFFF" />
-  <img src="https://img.shields.io/badge/Edge%20AI-001133?style=for-the-badge&logo=nvidia&logoColor=00FFFF" />
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/nF7vQPY.gif" width="50%" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://i.imgur.com/8uZr9F8.gif" width="100%" />
-</p>
-
-<!-- ============================ -->
-<!--        SKILLS GRID          -->
-<!-- ============================ -->
-
-<h2 align="center">⚡ TECH STACK MATRIX</h2>
-
+<!-- IDENTITY SECTION -->
 <table align="center">
-  <tr>
-    <td align="center" width="120">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" /><br/>
-      <sub><b>Python</b></sub>
-    </td>
-    <td align="center" width="120">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="48" /><br/>
-      <sub><b>OpenCV</b></sub>
-    </td>
-    <td align="center" width="120">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="48" /><br/>
-      <sub><b>TensorFlow</b></sub>
-    </td>
-    <td align="center" width="120">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="48" /><br/>
-      <sub><b>PyTorch</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="120">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48" /><br/>
-      <sub><b>Pandas</b></sub>
-    </td>
-    <td align="center" width="120">
-      <img src="https://avatars.githubusercontent.com/u/50221806?s=200&v=4" width="48" /><br/>
-      <sub><b>MediaPipe</b></sub>
-    </td>
-    <td align="center" width="120">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="48" /><br/>
-      <sub><b>GitHub</b></sub>
-    </td>
-    <td align="center" width="120">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="48" /><br/>
-      <sub><b>Linux</b></sub>
-    </td>
-  </tr>
-</table>
+<tr>
+<td width="50%">
 
-<p align="center">
-  <img src="https://i.imgur.com/VuAq0hM.gif" width="60%" />
-</p>
+## 🖥️ **SYSTEM_IDENTITY**
 
----
 
-<p align="center">
-  <img src="https://i.imgur.com/8uZr9F8.gif" width="100%" />
-</p>
+class CyberEngineer:
+    def __init__(self):
+        self.name = "BINIYAM BONGER"
+        self.handle = "BINIV_X"
+        self.domain = "Artificial Intelligence"
+        self.specializations = [
+            "Deep Learning",
+            "Computer Vision", 
+            "Neural Networks",
+            "Machine Intelligence"
+        ]
+        
+    def activate_systems(self):
+        return "SYSTEMS_ONLINE"
+</td> <td width="50%">
+🛠️ CORE_COMPETENCIES
+<div align="center">
+https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117
+https://img.shields.io/badge/TENSORFLOW-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=0d1117
+https://img.shields.io/badge/OPENCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white&labelColor=0d1117
+https://img.shields.io/badge/PYTORCH-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=0d1117
 
-<!-- ============================ -->
-<!--      GITHUB WIDGET GRID     -->
-<!-- ============================ -->
+https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=0d1117
+https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117
+https://img.shields.io/badge/MEDIAPIPE-4285F4?style=for-the-badge&logo=google&logoColor=white&labelColor=0d1117
+https://img.shields.io/badge/PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white&labelColor=0d1117
 
-<h2 align="center">📡 GITHUB TELEMETRY DASHBOARD</h2>
+</div></td> </tr> </table><img src="https://i.imgur.com/r5C8y6n.gif" width="100%"/><!-- GITHUB WIDGETS GRID -->
+📊 SYSTEM_DASHBOARD
+<table> <tr> <td width="50%" valign="top">
+🏆 PROFILE_TROPHIES
+<div align="center">
+https://github-profile-trophy.vercel.app/?username=binivert&theme=onedark&no-frame=true&row=2&column=4
 
-<!-- Row 1: Stats + Streak + Languages -->
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=binivert&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=00f0ff&icon_color=00f0ff&text_color=ffffff&hide_border=true" />
-    </td>
-    <td align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com?user=binivert&theme=tokyonight&background=0d1117&ring=00f0ff&fire=00f0ff&currStreakLabel=00f0ff&hide_border=true" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=binivert&layout=compact&theme=tokyonight&bg_color=0d1117&title_color=00f0ff&text_color=ffffff&hide_border=true" />
-    </td>
-  </tr>
-</table>
+</div>
+🔥 STREAK_STATS
+<div align="center">
+https://streak-stats.demolab.com/?user=binivert&theme=dark&background=0d1117&border=00F7FF&stroke=00F7FF&ring=00F7FF&fire=00F7FF&currStreakNum=00F7FF&sideNums=00F7FF&currStreakLabel=00F7FF&sideLabels=00F7FF&dates=8B949E
 
-<p align="center">
-  <img src="https://i.imgur.com/9L0xWnR.gif" width="40%" />
-</p>
+</div>
+📈 ACTIVITY_GRAPH
+<div align="center">
+https://github-readme-activity-graph.vercel.app/graph?username=binivert&bg_color=0d1117&color=00f7ff&line=00f7ff&point=00f7ff&area=true&hide_border=true
 
-<!-- Row 2: Trophy + Activity Graph -->
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="https://github-profile-trophy.vercel.app/?username=binivert&theme=algolia&no-frame=true&no-bg=true&column=4" />
-    </td>
-    <td align="center">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=binivert&bg_color=0d1117&color=00f0ff&line=00f0ff&point=00f0ff&area=true&hide_border=true" />
-    </td>
-  </tr>
-</table>
+</div></td> <td width="50%" valign="top">
+📊 GITHUB_STATS
+<div align="center">
+https://github-readme-stats.vercel.app/api?username=binivert&show_icons=true&theme=dark&bg_color=0d1117&title_color=00f7ff&icon_color=00f7ff&text_color=8b949e&hide_border=true
 
-<p align="center">
-  <img src="https://i.imgur.com/u7M6LwY.gif" width="60%" />
-</p>
+</div>
+💻 TOP_LANGUAGES
+<div align="center">
+https://github-readme-stats.vercel.app/api/top-langs/?username=binivert&layout=compact&theme=dark&bg_color=0d1117&title_color=00f7ff&text_color=8b949e&hide_border=true
 
-<!-- Row 3: 3D Contributions + Skyline -->
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/binivert/binivert/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
-    </td>
-    <td align="center">
-      <img src="https://github.com/YOUR-USERNAME/YOUR-USERNAME/raw/main/skyline.svg" width="100%" />
-    </td>
-  </tr>
-</table>
+</div>
+🐍 CONTRIBUTION_SNAKE
+<div align="center">
+https://github.com/binivert/binivert/blob/output/github-contribution-grid-snake.svg
 
-<!-- Row 4: Snake Contributions -->
-<p align="center">
-  <img src="https://github.com/binivert/binivert/raw/output/github-contribution-grid-snake-dark.svg" width="80%" />
-</p>
+</div></td> </tr> </table><!-- 3D CONTRIBUTIONS --><div align="center">
+🌌 3D_CONTRIBUTIONS
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=binivert&layout=compact&theme=dark&bg_color=0d1117&title_color=00f7ff&text_color=8b949e&hide_border=true&custom_title=CODING_ACTIVITY" /></div><img src="https://i.imgur.com/r5C8y6n.gif" width="100%"/><!-- SKILLS GRID -->
+⚡ TECHNICAL_MATRIX
+<table align="center"> <tr> <td align="center" width="100">
+https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+PYTHON
 
-<p align="center">
-  <img src="https://i.imgur.com/1XoQw9G.gif" width="50%" />
-</p>
+</td> <td align="center" width="100">
+https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white
+TENSORFLOW
 
-<!-- Row 5: Extra Visualizers / Badges -->
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=binivert&repo=binivert&theme=tokyonight&bg_color=0d1117&title_color=00f0ff&text_color=ffffff&hide_border=true" />
-    </td>
-    <td align="center">
-      <img src="https://statsforgit.com/api/user/github/binivert/badge?theme=dark" />
-    </td>
-  </tr>
-</table>
+</td> <td align="center" width="100">
+https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
+PYTORCH
 
-<p align="center">
-  <img src="https://i.imgur.com/nF7vQPY.gif" width="60%" />
-</p>
+</td> </tr> <tr> <td align="center" width="100">
+https://img.shields.io/badge/-OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white
+OPENCV
 
----
+</td> <td align="center" width="100">
+https://img.shields.io/badge/-MediaPipe-4285F4?style=for-the-badge&logo=google&logoColor=white
+MEDIAPIPE
 
-<p align="center">
-  <img src="https://i.imgur.com/8uZr9F8.gif" width="100%" />
-</p>
+</td> <td align="center" width="100">
+https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black
+LINUX
 
-<!-- ============================ -->
-<!--       CONTACT CHANNEL       -->
-<!-- ============================ -->
+</td> </tr> </table><img src="https://i.imgur.com/r5C8y6n.gif" width="100%"/><!-- CONTACT & SIGNATURE -->
+📡 NETWORK_INTERFACE
+<div align="center">
+🔗 SOCIAL_PROTOCOL
+https://img.shields.io/badge/INSTAGRAM-%2523E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white&labelColor=0d1117&color=00F7FF
 
-<h2 align="center">📨 CONTACT NODE</h2>
+</div>
+<div align="center"><!-- CYBERPUNK SIGNATURE --><img src="https://i.imgur.com/5rQ12p3.gif" width="100%"/>
+BINIV_X
+SYSTEM_ARCHITECT
+<img src="https://i.imgur.com/5rQ12p3.gif" width="100%"/>
+https://komarev.com/ghpvc/?username=binivert&color=00F7FF&style=for-the-badge&label=TERMINAL_ACCESS
 
-<p align="center">
-  <a href="https://www.instagram.com/biniv_x" target="_blank">
-    <img src="https://img.shields.io/badge/INSTAGRAM-%40BINIV__X-001133?style=for-the-badge&logo=instagram&logoColor=00FFFF&labelColor=000814" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/VuAq0hM.gif" width="45%" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://i.imgur.com/8uZr9F8.gif" width="100%" />
-</p>
-
-<!-- ============================ -->
-<!--      CYBERPUNK SIGN-OFF     -->
-<!-- ============================ -->
-
-<h2 align="center">
-  <code>BINI&nbsp;V_X&nbsp;//&nbsp;LINKED&nbsp;TO&nbsp;THE&nbsp;GRID</code>
-</h2>
-
-<p align="center">
-  <img src="https://i.imgur.com/u7M6LwY.gif" width="55%" />
-</p>
-
-<p align="center">
-  <img src="https://i.imgur.com/0NdCq4y.gif" width="100%" />
-</p>
+</div></div> 
