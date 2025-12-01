@@ -2,15 +2,14 @@ name: GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *" # runs daily at midnight UTC
+    - cron: "0 0 * * *" # runs daily
   workflow_dispatch:
 
 jobs:
   generate-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Run metrics
         uses: lowlighter/metrics@latest
