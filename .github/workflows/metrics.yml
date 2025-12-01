@@ -1,24 +1,24 @@
 name: GitHub Metrics
+
 on:
-  schedule: [{cron: "0 */12 * * *"}]
+  schedule:
+    - cron: "0 0 * * *" # runs daily at midnight UTC
   workflow_dispatch:
 
 jobs:
-  build:
+  generate-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Run metrics
+        uses: lowlighter/metrics@latest
         with:
+          filename: metrics.plugin.habits.charts.svg
           token: ${{ secrets.METRICS_TOKEN }}
-
-          user: binivert
           base: ""
-          config_timezone: Africa/Addis_Ababa
-
           plugin_habits: yes
-          plugin_habits_from: 300
-          plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
-          plugin_habits_charts_type: graph
-
+          config_timezone: Africa/Addis_Ababa
