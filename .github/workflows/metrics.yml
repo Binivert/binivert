@@ -1,17 +1,22 @@
 name: GitHub Metrics
 
+# Triggers
 on:
+  workflow_dispatch:        # allows manual run
   schedule:
-    - cron: "0 0 * * *" # runs daily
-  workflow_dispatch:
+    - cron: "0 0 * * *"    # runs daily at midnight UTC
 
 jobs:
   generate-metrics:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Run metrics
+    steps:
+      # Checkout your repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Run Lowlighter metrics
+      - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.habits.charts.svg
