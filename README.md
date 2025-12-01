@@ -8,3 +8,4 @@
 
 <!-- Coding habits (charts) -->
 ![Habits Charts](https://github.com/lowlighter/metrics/blob/master/metrics.plugin.habits.charts.svg?user=binivert)
+![GitHub Metrics](metrics.plugin.habits.charts.svg)
