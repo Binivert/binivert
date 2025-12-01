@@ -1,21 +1,18 @@
 name: GitHub Metrics
 
-# Triggers
 on:
-  workflow_dispatch:        # allows manual run
+  workflow_dispatch:       # allows manual trigger
   schedule:
-    - cron: "0 0 * * *"    # runs daily at midnight UTC
+    - cron: "0 0 * * *"   # daily at midnight UTC
 
 jobs:
   generate-metrics:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout your repo
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Run Lowlighter metrics
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
