@@ -1,9 +1,9 @@
 name: GitHub Metrics
 
 on:
-  workflow_dispatch:       # allows manual trigger
+  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"   # daily at midnight UTC
+    - cron: "0 0 * * *"
 
 jobs:
   generate-metrics:
