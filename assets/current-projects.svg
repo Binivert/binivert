@@ -1,1 +1,54 @@
 
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200">
+  <defs>
+    <style>
+      @keyframes fadeIn {
+        0% { opacity: 0; transform: translateX(-10px); }
+        100% { opacity: 1; transform: translateX(0); }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+      @keyframes pulse {
+        0%, 100% { fill: #00f0ff; }
+        50% { fill: #00ff80; }
+      }
+      .item { font-family: 'Courier New', monospace; font-size: 14px; fill: #a0d2db; }
+      .item1 { animation: fadeIn 0.5s ease-out; }
+      .item2 { animation: fadeIn 0.5s ease-out 0.2s both; }
+      .item3 { animation: fadeIn 0.5s ease-out 0.4s both; }
+      .item4 { animation: fadeIn 0.5s ease-out 0.6s both; }
+      .check { animation: pulse 2s infinite; }
+      .cursor { animation: blink 1s infinite; fill: #00f0ff; }
+    </style>
+  </defs>
+  <rect width="600" height="200" fill="#0a0f1a" rx="10"/>
+  
+  <!-- Border glow -->
+  <rect x="2" y="2" width="596" height="196" fill="none" stroke="#00f0ff" stroke-width="1" rx="10" opacity="0.3"/>
+  
+  <!-- Items -->
+  <g class="item1">
+    <text class="check" x="30" y="45">▸</text>
+    <text class="item" x="50" y="45">Building real-time vision pipelines for low-latency inference</text>
+  </g>
+  
+  <g class="item2">
+    <text class="check" x="30" y="85">▸</text>
+    <text class="item" x="50" y="85">Research &amp; prototyping with PyTorch/CUDA optimizations</text>
+  </g>
+  
+  <g class="item3">
+    <text class="check" x="30" y="125">▸</text>
+    <text class="item" x="50" y="125">Deploying vision models to edge devices</text>
+  </g>
+  
+  <g class="item4">
+    <text class="check" x="30" y="165">▸</text>
+    <text class="item" x="50" y="165">Integrating MediaPipe with custom detection systems</text>
+  </g>
+  
+  <!-- Blinking cursor -->
+  <rect class="cursor" x="570" y="155" width="10" height="18"/>
+</svg>
