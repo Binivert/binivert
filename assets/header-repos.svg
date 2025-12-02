@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="50" viewBox="0 0 350 50">
+  <defs>
+    <style>
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 2px #00f0ff); }
+        50% { filter: drop-shadow(0 0 8px #00f0ff); }
+      }
+      .header-text {
+        font-family: 'Courier New', monospace;
+        font-size: 24px;
+        font-weight: bold;
+        fill: #00f0ff;
+        animation: glow 2s infinite;
+      }
+    </style>
+  </defs>
+  <rect width="350" height="50" fill="transparent"/>
+  <text class="header-text" x="175" y="32" text-anchor="middle">◈ FEATURED SYSTEMS</text>
+</svg>
