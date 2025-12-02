@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      @keyframes rotate { 0% { transform: rotate(0deg); transform-origin: 20px 20px; } 100% { transform: rotate(360deg); transform-origin: 20px 20px; } }
+      @keyframes glow { 0%, 100% { filter: drop-shadow(0 0 2px #00f0ff); } 50% { filter: drop-shadow(0 0 6px #00f0ff); } }
+      .gear { stroke: #00f0ff; fill: none; stroke-width: 1.5; animation: rotate 8s linear infinite, glow 2s infinite; }
+    </style>
+  </defs>
+  <rect width="40" height="40" fill="transparent"/>
+  <circle class="gear" cx="20" cy="20" r="8"/>
+  <circle class="gear" cx="20" cy="20" r="4"/>
+  <line class="gear" x1="20" y1="8" x2="20" y2="12"/>
+  <line class="gear" x1="20" y1="28" x2="20" y2="32"/>
+  <line class="gear" x1="8" y1="20" x2="12" y2="20"/>
+  <line class="gear" x1="28" y1="20" x2="32" y2="20"/>
+</svg>
