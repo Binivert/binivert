@@ -1,299 +1,143 @@
-<!-- 
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  CYBERPUNK GITHUB PROFILE README - Biniyam Bonger                            ║
-║  Color Palette:                                                               ║
-║    --bg: #061028 (deep navy)                                                  ║
-║    --neon-cyan: #00E5FF                                                       ║
-║    --blue: #0077FF                                                            ║
-║    --accent: #9B59FF (sparingly)                                              ║
-║    --glass: rgba(255,255,255,0.03)                                            ║
-╚══════════════════════════════════════════════════════════════════════════════╝
--->
-
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════════════════════
-     ANIMATED GLITCH NAME BANNER
-     ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- HERO BANNER -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
-<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="glitch" x="-20%" y="-20%" width="140%" height="140%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" result="noise" seed="1">
-        <animate attributeName="seed" values="1;10;1" dur="0.5s" repeatCount="indefinite"/>
-      </feTurbulence>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" xChannelSelector="R" yChannelSelector="G">
-        <animate attributeName="scale" values="0;8;0;5;0" dur="3s" repeatCount="indefinite"/>
-      </feDisplacementMap>
-    </filter>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00E5FF">
-        <animate attributeName="stop-color" values="#00E5FF;#0077FF;#9B59FF;#00E5FF" dur="4s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" style="stop-color:#0077FF"/>
-      <stop offset="100%" style="stop-color:#00E5FF">
-        <animate attributeName="stop-color" values="#00E5FF;#9B59FF;#0077FF;#00E5FF" dur="4s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-    <linearGradient id="scanline" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:rgba(0,229,255,0)">
-        <animate attributeName="offset" values="0;1;0" dur="2s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="5%" style="stop-color:rgba(0,229,255,0.3)">
-        <animate attributeName="offset" values="0.05;1.05;0.05" dur="2s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="10%" style="stop-color:rgba(0,229,255,0)">
-        <animate attributeName="offset" values="0.1;1.1;0.1" dur="2s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-  </defs>
-  
-  <style>
-    @keyframes flicker {
-      0%, 100% { opacity: 1; }
-      92% { opacity: 1; }
-      93% { opacity: 0.8; }
-      94% { opacity: 1; }
-      96% { opacity: 0.9; }
-      97% { opacity: 1; }
-    }
-    @keyframes rgbShift {
-      0%, 100% { transform: translate(0, 0); }
-      25% { transform: translate(-2px, 0); }
-      50% { transform: translate(2px, 0); }
-      75% { transform: translate(-1px, 1px); }
-    }
-    .main-text { 
-      font-family: 'Courier New', monospace; 
-      font-size: 56px; 
-      font-weight: bold;
-      fill: url(#neonGrad);
-      filter: url(#glow);
-      animation: flicker 5s infinite;
-    }
-    .glitch-r {
-      font-family: 'Courier New', monospace;
-      font-size: 56px;
-      font-weight: bold;
-      fill: #ff0040;
-      opacity: 0.7;
-      animation: rgbShift 0.3s infinite;
-    }
-    .glitch-b {
-      font-family: 'Courier New', monospace;
-      font-size: 56px;
-      font-weight: bold;
-      fill: #00E5FF;
-      opacity: 0.7;
-      animation: rgbShift 0.3s infinite reverse;
-    }
-    .subtitle {
-      font-family: 'Courier New', monospace;
-      font-size: 18px;
-      fill: #9bdcff;
-      opacity: 0.9;
-    }
-    .scanline-overlay {
-      fill: url(#scanline);
-      mix-blend-mode: overlay;
-    }
-  </style>
-  
-  <rect width="800" height="200" fill="#061028"/>
-  
-  <!-- Scanline effect -->
-  <rect class="scanline-overlay" width="800" height="200"/>
-  
-  <!-- Glitch layers -->
-  <text x="400" y="90" text-anchor="middle" class="glitch-r" filter="url(#glitch)">Biniyam Bonger</text>
-  <text x="400" y="90" text-anchor="middle" class="glitch-b" filter="url(#glitch)">Biniyam Bonger</text>
-  
-  <!-- Main text -->
-  <text x="400" y="90" text-anchor="middle" class="main-text">Biniyam Bonger</text>
-  
-  <!-- Subtitle -->
-  <text x="400" y="130" text-anchor="middle" class="subtitle">AI • Computer Vision • Deep Learning Explorer</text>
-  
-  <!-- Decorative lines -->
-  <line x1="150" y1="155" x2="300" y2="155" stroke="#00E5FF" stroke-width="1" opacity="0.5">
-    <animate attributeName="x2" values="300;320;300" dur="2s" repeatCount="indefinite"/>
-  </line>
-  <line x1="500" y1="155" x2="650" y2="155" stroke="#00E5FF" stroke-width="1" opacity="0.5">
-    <animate attributeName="x1" values="500;480;500" dur="2s" repeatCount="indefinite"/>
-  </line>
-</svg>
-
-<!-- Fallback text for renderers that don't support SVG animation -->
-<!--
-# Biniyam Bonger
-### AI • Computer Vision • Deep Learning Explorer
--->
-
-<!-- Micro-badges -->
-<br/>
-
-![Open to Collaboration](https://img.shields.io/badge/Open%20to-Collaboration-00E5FF?style=for-the-badge&labelColor=061028)
-![Computer Vision](https://img.shields.io/badge/Computer-Vision-9B59FF?style=for-the-badge&labelColor=061028)
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/hero-banner.svg" alt="Biniyam Bonger - AI • Computer Vision • Deep Learning Explorer" width="100%" />
 
 <br/>
 
-<!-- Hero blurb -->
-<em>Building the machines that teach computers to see — realtime vision, models & systems.</em>
+<!-- ANIMATED DIVIDER -->
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-cyan.svg" alt="divider" width="100%" />
 
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════
-     ANIMATED NEON DIVIDER
-     ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- MAIN LAYOUT: ABOUT + SOCIAL SIDEBAR -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
-<div align="center">
-<svg width="100%" height="30" viewBox="0 0 1200 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#061028"/>
-      <stop offset="20%" style="stop-color:#00E5FF">
-        <animate attributeName="offset" values="0.2;0.4;0.2" dur="3s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" style="stop-color:#9B59FF"/>
-      <stop offset="80%" style="stop-color:#00E5FF">
-        <animate attributeName="offset" values="0.8;0.6;0.8" dur="3s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" style="stop-color:#061028"/>
-    </linearGradient>
-    <filter id="dividerGlow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-  <path d="M0,15 Q300,5 600,15 T1200,15" stroke="url(#dividerGrad)" stroke-width="2" fill="none" filter="url(#dividerGlow)">
-    <animate attributeName="d" 
-             values="M0,15 Q300,5 600,15 T1200,15;M0,15 Q300,25 600,15 T1200,15;M0,15 Q300,5 600,15 T1200,15" 
-             dur="4s" repeatCount="indefinite"/>
-  </path>
-</svg>
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════
-     MAIN CONTENT GRID
-     ═══════════════════════════════════════════════════════════════════════════ -->
-
-<table width="100%">
+<table>
 <tr>
 <td width="70%" valign="top">
 
-<!-- LEFT COLUMN: Tech Stack & Projects -->
+### ⚡ The Vision
 
-## <img src="https://img.shields.io/badge/▸-00E5FF?style=flat-square&labelColor=061028" height="20"/> Tech Stack
+```
+I architect systems that see.
+Neural networks. Real-time inference. Edge deployment.
+Where pixels become perception.
+```
 
-<!-- Glitch header decoration (inline) -->
-<sup>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sup>
+<br/>
+
+<!-- CONTRIBUTION GRAPH -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Binivert&bg_color=0a0f1a&color=00f0ff&line=00f0ff&point=ffffff&area=true&area_color=0a2540&hide_border=true&custom_title=Neural%20Activity%20Log" alt="Contribution Graph" width="100%" />
+
+</td>
+<td width="30%" valign="top" align="center">
+
+<!-- FLOATING SOCIAL BLOCK -->
+<br/>
+
+<a href="REPLACE_WITH_LINKEDIN_URL" title="LinkedIn">
+<img src="https://img.shields.io/badge/LinkedIn-0a0f1a?style=for-the-badge&logo=linkedin&logoColor=00f0ff" alt="LinkedIn" />
+</a>
+
+<br/><br/>
+
+<a href="https://www.instagram.com/bini_v/" title="Instagram">
+<img src="https://img.shields.io/badge/Instagram-0a0f1a?style=for-the-badge&logo=instagram&logoColor=00f0ff" alt="Instagram" />
+</a>
+
+<br/><br/>
+
+<a href="https://leetcode.com/binivert/" title="LeetCode">
+<img src="https://img.shields.io/badge/LeetCode-0a0f1a?style=for-the-badge&logo=leetcode&logoColor=00f0ff" alt="LeetCode" />
+</a>
+
+<br/><br/>
+
+<a href="mailto:bintrion@gmail.com" title="Email Me">
+<img src="https://img.shields.io/badge/Email-0a0f1a?style=for-the-badge&logo=gmail&logoColor=00f0ff" alt="Email" />
+</a>
+
+<br/><br/>
+
+<a href="https://discord.com/users/binitrion" title="Discord: binitrion">
+<img src="https://img.shields.io/badge/Discord-0a0f1a?style=for-the-badge&logo=discord&logoColor=00f0ff" alt="Discord" />
+</a>
+
+<br/><br/>
+
+<!-- STATS CARD -->
+<img src="https://github-readme-stats.vercel.app/api?username=Binivert&show_icons=true&hide_border=true&bg_color=0a0f1a&title_color=00f0ff&text_color=a0d2db&icon_color=00f0ff&include_all_commits=true&count_private=true&hide_title=true" alt="GitHub Stats" width="100%" />
+
+</td>
+</tr>
+</table>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ANIMATED SECTION DIVIDER -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-glitch.svg" alt="divider" width="100%" />
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- TECH STACK - FLOATING CARDS -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- Programming Languages -->
-<table>
-<tr>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
-<br><sub><b>Python</b></sub>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
-<br><sub><b>JavaScript</b></sub>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
-<br><sub><b>C++</b></sub>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
-<br><sub><b>Node.js</b></sub>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" />
-<br><sub><b>HTML</b></sub>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" />
-<br><sub><b>CSS</b></sub>
-</td>
-</tr>
-</table>
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-tech.svg" alt="Tech Arsenal" width="300" />
 
-<!-- Databases -->
-<table>
-<tr>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
-<br><sub><b>MySQL</b></sub>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
-<br><sub><b>MongoDB</b></sub>
-</td>
-</tr>
-</table>
+<br/><br/>
 
-<!-- Vision & ML -->
 <table>
 <tr>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=opencv" width="48" height="48" alt="OpenCV" />
-<br><sub><b>OpenCV</b></sub>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" alt="PyTorch" />
-<br><sub><b>PyTorch</b></sub>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" />
-<br><sub><b>TensorFlow</b></sub>
-</td>
-<td align="center" width="96">
-<img src="https://img.shields.io/badge/MediaPipe-00E5FF?style=flat-square&logo=google&logoColor=white" height="48" alt="MediaPipe" />
-<br><sub><b>MediaPipe</b></sub>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=matlab" width="48" height="48" alt="MATLAB" />
-<br><sub><b>MATLAB</b></sub>
-</td>
-<td align="center" width="96">
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" height="48" alt="Pandas" />
-<br><sub><b>Pandas</b></sub>
-</td>
-</tr>
-</table>
+<td align="center" width="33%">
 
-<!-- Web & Tools -->
-<table>
-<tr>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
-<br><sub><b>React</b></sub>
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/icon-code.svg" alt="Languages" width="40" />
+
+**`LANGUAGES`**
+
+<br/>
+
+![Python](https://img.shields.io/badge/Python-0a0f1a?style=flat-square&logo=python&logoColor=00f0ff)
+![C++](https://img.shields.io/badge/C++-0a0f1a?style=flat-square&logo=cplusplus&logoColor=00f0ff)
+![JavaScript](https://img.shields.io/badge/JavaScript-0a0f1a?style=flat-square&logo=javascript&logoColor=00f0ff)
+![TypeScript](https://img.shields.io/badge/TypeScript-0a0f1a?style=flat-square&logo=typescript&logoColor=00f0ff)
+
 </td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
-<br><sub><b>Git</b></sub>
+<td align="center" width="33%">
+
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/icon-brain.svg" alt="ML/Vision" width="40" />
+
+**`ML / VISION`**
+
+<br/>
+
+![PyTorch](https://img.shields.io/badge/PyTorch-0a0f1a?style=flat-square&logo=pytorch&logoColor=00f0ff)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-0a0f1a?style=flat-square&logo=tensorflow&logoColor=00f0ff)
+![OpenCV](https://img.shields.io/badge/OpenCV-0a0f1a?style=flat-square&logo=opencv&logoColor=00f0ff)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0a0f1a?style=flat-square&logo=google&logoColor=00f0ff)
+
 </td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
-<br><sub><b>Docker</b></sub>
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=githubactions" width="48" height="48" alt="GitHub Actions" />
-<br><sub><b>Actions</b></sub>
+<td align="center" width="33%">
+
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/icon-tools.svg" alt="Tools" width="40" />
+
+**`TOOLS`**
+
+<br/>
+
+![Docker](https://img.shields.io/badge/Docker-0a0f1a?style=flat-square&logo=docker&logoColor=00f0ff)
+![CUDA](https://img.shields.io/badge/CUDA-0a0f1a?style=flat-square&logo=nvidia&logoColor=00f0ff)
+![Git](https://img.shields.io/badge/Git-0a0f1a?style=flat-square&logo=git&logoColor=00f0ff)
+![Linux](https://img.shields.io/badge/Linux-0a0f1a?style=flat-square&logo=linux&logoColor=00f0ff)
+
 </td>
 </tr>
 </table>
@@ -302,624 +146,507 @@
 
 <br/>
 
-## <img src="https://img.shields.io/badge/▸-9B59FF?style=flat-square&labelColor=061028" height="20"/> Featured Projects
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ANIMATED SECTION DIVIDER -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
-<sup>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sup>
+<div align="center">
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-cyan.svg" alt="divider" width="100%" />
+</div>
 
-<!-- Project Card 1: sl-interpreter -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- FEATURED REPOSITORIES -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-repos.svg" alt="Featured Systems" width="350" />
+
+<br/><br/>
+
+<table>
+<tr>
+<td align="center" width="33%">
+
 <a href="https://github.com/Binivert/sl-interpreter">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Binivert&repo=sl-interpreter&theme=dark&hide_border=true&bg_color=061028&title_color=00E5FF&icon_color=9B59FF&text_color=9bdcff" alt="sl-interpreter" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Binivert&repo=sl-interpreter&bg_color=0a0f1a&title_color=00f0ff&text_color=a0d2db&icon_color=00f0ff&hide_border=true" alt="SL Interpreter" />
 </a>
 
-> 🤟 **Sign Language Interpreter** — Real-time gesture recognition & translation system
+<br/>
 
-![Python](https://img.shields.io/badge/Python-00E5FF?style=flat-square&labelColor=061028)
-![OpenCV](https://img.shields.io/badge/OpenCV-9B59FF?style=flat-square&labelColor=061028)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0077FF?style=flat-square&labelColor=061028)
+`Real-time sign language interpretation`
 
----
+<br/>
 
-<!-- Project Card 2: security-system -->
+![Python](https://img.shields.io/badge/-Python-0a0f1a?style=flat-square&logo=python&logoColor=00f0ff)
+![MediaPipe](https://img.shields.io/badge/-MediaPipe-0a0f1a?style=flat-square&logo=google&logoColor=00f0ff)
+
+</td>
+<td align="center" width="33%">
+
 <a href="https://github.com/Binivert/security-system">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Binivert&repo=security-system&theme=dark&hide_border=true&bg_color=061028&title_color=00E5FF&icon_color=9B59FF&text_color=9bdcff" alt="security-system" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Binivert&repo=security-system&bg_color=0a0f1a&title_color=00f0ff&text_color=a0d2db&icon_color=00f0ff&hide_border=true" alt="Security System" />
 </a>
 
-> 🔐 **Security System** — Intelligent surveillance with motion detection & alerts
+<br/>
 
-![Python](https://img.shields.io/badge/Python-00E5FF?style=flat-square&labelColor=061028)
-![Computer Vision](https://img.shields.io/badge/CV-9B59FF?style=flat-square&labelColor=061028)
-![Deep Learning](https://img.shields.io/badge/DL-0077FF?style=flat-square&labelColor=061028)
+`Intelligent surveillance & detection`
 
----
+<br/>
 
-<!-- Project Card 3: VisionArc -->
+![Python](https://img.shields.io/badge/-Python-0a0f1a?style=flat-square&logo=python&logoColor=00f0ff)
+![OpenCV](https://img.shields.io/badge/-OpenCV-0a0f1a?style=flat-square&logo=opencv&logoColor=00f0ff)
+
+</td>
+<td align="center" width="33%">
+
 <a href="https://github.com/Binivert/VisionArc">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Binivert&repo=VisionArc&theme=dark&hide_border=true&bg_color=061028&title_color=00E5FF&icon_color=9B59FF&text_color=9bdcff" alt="VisionArc" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Binivert&repo=VisionArc&bg_color=0a0f1a&title_color=00f0ff&text_color=a0d2db&icon_color=00f0ff&hide_border=true" alt="VisionArc" />
 </a>
 
-> 👁️ **VisionArc** — Computer vision framework for rapid prototyping & deployment
+<br/>
 
-![Python](https://img.shields.io/badge/Python-00E5FF?style=flat-square&labelColor=061028)
-![PyTorch](https://img.shields.io/badge/PyTorch-9B59FF?style=flat-square&labelColor=061028)
-![CUDA](https://img.shields.io/badge/CUDA-0077FF?style=flat-square&labelColor=061028)
+`Computer vision architecture toolkit`
+
+<br/>
+
+![Python](https://img.shields.io/badge/-Python-0a0f1a?style=flat-square&logo=python&logoColor=00f0ff)
+![PyTorch](https://img.shields.io/badge/-PyTorch-0a0f1a?style=flat-square&logo=pytorch&logoColor=00f0ff)
 
 </td>
-<td width="30%" valign="top">
+</tr>
+</table>
 
-<!-- RIGHT COLUMN: Social Links -->
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ANIMATED SECTION DIVIDER -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-glitch.svg" alt="divider" width="100%" />
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- CURRENT PROJECTS - ANIMATED CARDS -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- Animated Social Card -->
-<svg width="220" height="320" viewBox="0 0 220 320" xmlns="http://www.w3.org/2000/svg">
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-current.svg" alt="Current Protocols" width="350" />
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/current-projects.svg" alt="Current Projects Checklist" width="600" />
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- FOOTER DIVIDER -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-cyan.svg" alt="divider" width="100%" />
+
+<br/>
+
+```
+[ SYSTEM ONLINE ] — Awaiting collaboration protocols...
+```
+
+<br/>
+
+<img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00f0ff?style=for-the-badge&labelColor=0a0f1a" alt="Status" />
+
+</div>
+
+---
+
+## SETUP
+
+### Step 1: Create the Assets Folder
+
+1. In your `Binivert/Binivert` profile repository, create a folder called `assets/`
+2. You will upload all SVG files to this folder
+
+### Step 2: Create and Upload SVG Assets
+
+Create each of the following files and upload them to `assets/`:
+
+#### `assets/hero-banner.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
   <defs>
-    <filter id="cardGlow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00E5FF">
-        <animate attributeName="stop-color" values="#00E5FF;#9B59FF;#00E5FF" dur="3s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" style="stop-color:#9B59FF">
-        <animate attributeName="stop-color" values="#9B59FF;#00E5FF;#9B59FF" dur="3s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
+    <style>
+      @keyframes glitch1 {
+        0%, 100% { transform: translate(0, 0); opacity: 1; }
+        20% { transform: translate(-2px, 1px); opacity: 0.8; }
+        40% { transform: translate(2px, -1px); opacity: 0.9; }
+        60% { transform: translate(-1px, 2px); opacity: 0.7; }
+        80% { transform: translate(1px, -2px); opacity: 0.85; }
+      }
+      @keyframes glitch2 {
+        0%, 100% { transform: translate(0, 0); }
+        25% { transform: translate(2px, 0); }
+        50% { transform: translate(-2px, 0); }
+        75% { transform: translate(1px, 0); }
+      }
+      @keyframes flicker {
+        0%, 100% { opacity: 1; }
+        92% { opacity: 1; }
+        93% { opacity: 0.3; }
+        94% { opacity: 1; }
+        96% { opacity: 0.5; }
+        97% { opacity: 1; }
+      }
+      @keyframes scanline {
+        0% { transform: translateY(-200px); }
+        100% { transform: translateY(200px); }
+      }
+      .main-text {
+        font-family: 'Courier New', monospace;
+        font-size: 48px;
+        font-weight: bold;
+        fill: #00f0ff;
+        animation: glitch1 3s infinite, flicker 4s infinite;
+      }
+      .glitch-layer1 {
+        font-family: 'Courier New', monospace;
+        font-size: 48px;
+        font-weight: bold;
+        fill: #ff0080;
+        opacity: 0.5;
+        animation: glitch2 2s infinite;
+      }
+      .glitch-layer2 {
+        font-family: 'Courier New', monospace;
+        font-size: 48px;
+        font-weight: bold;
+        fill: #00ff80;
+        opacity: 0.3;
+        animation: glitch2 2.5s infinite reverse;
+      }
+      .subtitle {
+        font-family: 'Courier New', monospace;
+        font-size: 18px;
+        fill: #a0d2db;
+        animation: flicker 5s infinite;
+      }
+      .scanline {
+        fill: rgba(0, 240, 255, 0.03);
+        animation: scanline 3s linear infinite;
+      }
+    </style>
   </defs>
   
-  <style>
-    @keyframes pulse {
-      0%, 100% { opacity: 0.8; }
-      50% { opacity: 1; }
-    }
-    .card-bg { fill: #061028; }
-    .card-border { stroke: url(#cardBorder); stroke-width: 2; fill: none; }
-    .card-title { font-family: 'Courier New', monospace; font-size: 14px; fill: #00E5FF; font-weight: bold; }
-    .social-text { font-family: 'Courier New', monospace; font-size: 11px; fill: #9bdcff; }
-    .icon-glow { animation: pulse 2s infinite; }
-  </style>
+  <rect width="800" height="200" fill="#0a0f1a"/>
   
-  <rect x="5" y="5" width="210" height="310" rx="10" class="card-bg"/>
-  <rect x="5" y="5" width="210" height="310" rx="10" class="card-border" filter="url(#cardGlow)"/>
+  <!-- Scanline effect -->
+  <rect class="scanline" x="0" y="0" width="800" height="4"/>
   
-  <text x="110" y="35" text-anchor="middle" class="card-title">⚡ CONNECT</text>
-  <line x1="30" y1="50" x2="190" y2="50" stroke="#00E5FF" stroke-width="1" opacity="0.5"/>
+  <!-- Glitch layers -->
+  <text class="glitch-layer1" x="400" y="90" text-anchor="middle">Biniyam Bonger</text>
+  <text class="glitch-layer2" x="400" y="90" text-anchor="middle">Biniyam Bonger</text>
+  <text class="main-text" x="400" y="90" text-anchor="middle">Biniyam Bonger</text>
   
-  <!-- LinkedIn -->
-  <g class="icon-glow" transform="translate(30, 70)">
-    <rect width="24" height="24" rx="4" fill="#0077B5"/>
-    <text x="12" y="17" text-anchor="middle" fill="white" font-size="14" font-weight="bold">in</text>
-  </g>
-  <text x="65" y="87" class="social-text">LinkedIn</text>
+  <!-- Subtitle -->
+  <text class="subtitle" x="400" y="140" text-anchor="middle">AI • Computer Vision • Deep Learning Explorer</text>
   
-  <!-- Discord -->
-  <g class="icon-glow" transform="translate(30, 115)">
-    <rect width="24" height="24" rx="4" fill="#5865F2"/>
-    <text x="12" y="17" text-anchor="middle" fill="white" font-size="10">DC</text>
-  </g>
-  <text x="65" y="132" class="social-text">binitrion</text>
-  
-  <!-- Email -->
-  <g class="icon-glow" transform="translate(30, 160)">
-    <rect width="24" height="24" rx="4" fill="#EA4335"/>
-    <text x="12" y="17" text-anchor="middle" fill="white" font-size="10">@</text>
-  </g>
-  <text x="65" y="177" class="social-text">bintrion@gmail</text>
-  
-  <!-- Instagram -->
-  <g class="icon-glow" transform="translate(30, 205)">
-    <rect width="24" height="24" rx="4" fill="#E4405F"/>
-    <text x="12" y="17" text-anchor="middle" fill="white" font-size="10">IG</text>
-  </g>
-  <text x="65" y="222" class="social-text">@bini_v</text>
-  
-  <!-- LeetCode -->
-  <g class="icon-glow" transform="translate(30, 250)">
-    <rect width="24" height="24" rx="4" fill="#FFA116"/>
-    <text x="12" y="17" text-anchor="middle" fill="black" font-size="10" font-weight="bold">LC</text>
-  </g>
-  <text x="65" y="267" class="social-text">binivert</text>
-  
+  <!-- Decorative elements -->
+  <line x1="100" y1="170" x2="300" y2="170" stroke="#00f0ff" stroke-width="1" opacity="0.5"/>
+  <line x1="500" y1="170" x2="700" y2="170" stroke="#00f0ff" stroke-width="1" opacity="0.5"/>
+  <circle cx="400" cy="170" r="3" fill="#00f0ff" opacity="0.8"/>
 </svg>
-
-<br/>
-
-<!-- Clickable social links -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](REPLACE_WITH_LINKEDIN_URL)
-<!-- ⚠️ REPLACE_ME: Replace REPLACE_WITH_LINKEDIN_URL with your LinkedIn profile URL -->
-<!-- Example: https://www.linkedin.com/in/biniyam-bonger/ -->
-
-[![Discord](https://img.shields.io/badge/Discord-binitrion-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/binitrion)
-
-[![Email](https://img.shields.io/badge/Email-bintrion%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bintrion@gmail.com)
-
-[![Instagram](https://img.shields.io/badge/Instagram-bini__v-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/bini_v/)
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-binivert-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/binivert/)
-
-</div>
-
-<br/>
-
-<!-- Current Focus Card -->
-<div align="center">
-
-## ⚡ Current Focus
-
-</div>
-
-```
-┌─────────────────────────┐
-│ ◉ Real-time vision      │
-│   pipelines             │
-│                         │
-│ ◉ PyTorch/CUDA          │
-│   optimizations         │
-│                         │
-│ ◉ Edge device           │
-│   deployment            │
-│                         │
-│ ◉ MediaPipe custom      │
-│   detection systems     │
-└─────────────────────────┘
 ```
 
-</td>
-</tr>
-</table>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════
-     ANIMATED DIVIDER 2
-     ═══════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-<svg width="100%" height="30" viewBox="0 0 1200 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+#### `assets/divider-cyan.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="20" viewBox="0 0 800 20">
   <defs>
-    <linearGradient id="dividerGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#061028"/>
-      <stop offset="30%" style="stop-color:#9B59FF">
-        <animate attributeName="offset" values="0.3;0.5;0.3" dur="4s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" style="stop-color:#00E5FF"/>
-      <stop offset="70%" style="stop-color:#9B59FF">
-        <animate attributeName="offset" values="0.7;0.5;0.7" dur="4s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" style="stop-color:#061028"/>
-    </linearGradient>
+    <style>
+      @keyframes pulse {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; }
+      }
+      @keyframes travel {
+        0% { transform: translateX(-100px); opacity: 0; }
+        10% { opacity: 1; }
+        90% { opacity: 1; }
+        100% { transform: translateX(900px); opacity: 0; }
+      }
+      .line { stroke: #00f0ff; stroke-width: 1; opacity: 0.3; }
+      .dot { fill: #00f0ff; animation: pulse 2s infinite; }
+      .traveler { fill: #00f0ff; animation: travel 4s linear infinite; }
+    </style>
   </defs>
-  <rect x="0" y="14" width="1200" height="2" fill="url(#dividerGrad2)"/>
-  <circle cx="600" cy="15" r="4" fill="#00E5FF">
-    <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="fill" values="#00E5FF;#9B59FF;#00E5FF" dur="2s" repeatCount="indefinite"/>
-  </circle>
+  <rect width="800" height="20" fill="transparent"/>
+  <line class="line" x1="0" y1="10" x2="800" y2="10"/>
+  <circle class="dot" cx="100" cy="10" r="2"/>
+  <circle class="dot" cx="400" cy="10" r="2" style="animation-delay: 0.5s;"/>
+  <circle class="dot" cx="700" cy="10" r="2" style="animation-delay: 1s;"/>
+  <circle class="traveler" cx="0" cy="10" r="3"/>
 </svg>
-</div>
+```
 
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════
-     GITHUB STATS SECTION
-     ═══════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## <img src="https://img.shields.io/badge/▸-00E5FF?style=flat-square&labelColor=061028" height="20"/> GitHub Analytics
-
-<sup>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</sup>
-
-<br/>
-
-<!-- Stats Cards Row -->
-<table>
-<tr>
-<td>
-
-<!-- GitHub Stats Card -->
-<img src="https://github-readme-stats.vercel.app/api?username=Binivert&show_icons=true&hide_border=true&bg_color=061028&title_color=00E5FF&icon_color=9B59FF&text_color=9bdcff&ring_color=00E5FF&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-
-</td>
-<td>
-
-<!-- Top Languages Card -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Binivert&layout=compact&hide_border=true&bg_color=061028&title_color=00E5FF&text_color=9bdcff&langs_count=8" alt="Top Languages" />
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- Streak Stats -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Binivert&hide_border=true&background=061028&stroke=00E5FF&ring=00E5FF&fire=9B59FF&currStreakNum=9bdcff&sideNums=9bdcff&currStreakLabel=00E5FF&sideLabels=00E5FF&dates=9bdcff" alt="GitHub Streak" />
-
-<br/><br/>
-
-<!-- GitHub Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=Binivert&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-
-<br/><br/>
-
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Binivert&bg_color=061028&color=9bdcff&line=00E5FF&point=9B59FF&area=true&area_color=00E5FF&hide_border=true" alt="Contribution Graph" />
-
-<br/><br/>
-
-<!-- Contribution Snake -->
-<!-- ⚠️ This requires GitHub Actions setup - see SETUP section below -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Binivert/Binivert/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Binivert/Binivert/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Binivert/Binivert/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-<!-- Fallback: If snake doesn't load, the contribution graph above serves as alternative -->
-
-<br/><br/>
-
-<!-- Additional Stats Badges -->
-<img src="https://komarev.com/ghpvc/?username=Binivert&style=for-the-badge&color=00E5FF&label=PROFILE+VIEWS" alt="Profile Views" style="display:none" />
-<!-- Note: Visitor counter disabled as per request -->
-
-<!-- Language Stats Donut -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Binivert&layout=donut&hide_border=true&bg_color=061028&title_color=00E5FF&text_color=9bdcff" alt="Languages Donut" />
-
-<br/><br/>
-
-<!-- Detailed Stats -->
-<table>
-<tr>
-<td>
-
-![Commits](https://img.shields.io/badge/Total%20Commits-Loading-00E5FF?style=for-the-badge&labelColor=061028&logo=git&logoColor=white)
-
-</td>
-<td>
-
-![PRs](https://img.shields.io/badge/Pull%20Requests-Loading-9B59FF?style=for-the-badge&labelColor=061028&logo=github&logoColor=white)
-
-</td>
-<td>
-
-![Issues](https://img.shields.io/badge/Issues-Loading-0077FF?style=for-the-badge&labelColor=061028&logo=github&logoColor=white)
-
-</td>
-</tr>
-</table>
-
-<!-- Summary Card -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Binivert&theme=github_dark" alt="Profile Summary" />
-
-<br/>
-
-<!-- Productive Time & Commits per Language -->
-<table>
-<tr>
-<td>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Binivert&theme=github_dark&utcOffset=0" alt="Productive Time" />
-</td>
-<td>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Binivert&theme=github_dark" alt="Repos per Language" />
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- Additional Shields.io Badges -->
-
-![GitHub followers](https://img.shields.io/github/followers/Binivert?style=for-the-badge&labelColor=061028&color=00E5FF&logo=github)
-![GitHub User's stars](https://img.shields.io/github/stars/Binivert?style=for-the-badge&labelColor=061028&color=9B59FF&logo=github)
-
-<br/>
-
-<!-- Language Badges -->
-![Python](https://img.shields.io/badge/Python-Expert-00E5FF?style=for-the-badge&labelColor=061028&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-Proficient-9B59FF?style=for-the-badge&labelColor=061028&logo=javascript&logoColor=white)
-![C++](https://img.shields.io/badge/C++-Intermediate-0077FF?style=for-the-badge&labelColor=061028&logo=cplusplus&logoColor=white)
-![Computer Vision](https://img.shields.io/badge/Computer%20Vision-Specialist-00E5FF?style=for-the-badge&labelColor=061028&logo=opencv&logoColor=white)
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-Practitioner-9B59FF?style=for-the-badge&labelColor=061028&logo=pytorch&logoColor=white)
-
-</div>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════
-     FOOTER
-     ═══════════════════════════════════════════════════════════════════════════ -->
-
-<br/>
-
-<div align="center">
-<svg width="100%" height="50" viewBox="0 0 1200 50" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+#### `assets/divider-glitch.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="20" viewBox="0 0 800 20">
   <defs>
-    <linearGradient id="footerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#061028"/>
-      <stop offset="50%" style="stop-color:#00E5FF"/>
-      <stop offset="100%" style="stop-color:#061028"/>
-    </linearGradient>
+    <style>
+      @keyframes glitchLine {
+        0%, 100% { transform: translateX(0); opacity: 0.5; }
+        10% { transform: translateX(-5px); opacity: 0.8; }
+        20% { transform: translateX(5px); opacity: 0.3; }
+        30% { transform: translateX(-3px); opacity: 0.9; }
+        40% { transform: translateX(0); opacity: 0.5; }
+      }
+      .glitch-line { stroke: #00f0ff; stroke-width: 2; animation: glitchLine 3s infinite; }
+      .glitch-line2 { stroke: #ff0080; stroke-width: 1; opacity: 0.3; animation: glitchLine 2s infinite reverse; }
+    </style>
   </defs>
-  <rect x="0" y="24" width="1200" height="2" fill="url(#footerGrad)"/>
+  <rect width="800" height="20" fill="transparent"/>
+  <line class="glitch-line2" x1="50" y1="8" x2="750" y2="8"/>
+  <line class="glitch-line" x1="50" y1="10" x2="750" y2="10"/>
+  <line class="glitch-line2" x1="50" y1="12" x2="750" y2="12"/>
 </svg>
-
-<br/>
-
-<sub>⚡ Last Updated: 2024 • Built with passion for Computer Vision & AI ⚡</sub>
-
-<br/>
-
-<sub>💡 <em>"The best way to predict the future is to build it."</em></sub>
-
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════════════
-     SETUP INSTRUCTIONS
-     ═══════════════════════════════════════════════════════════════════════════ -->
-
-<details>
-<summary><h2>📋 SETUP INSTRUCTIONS (Click to expand)</h2></summary>
-
-### 🚀 Quick Start Checklist
-
-- [ ] Create a repository named exactly `Binivert` (same as your username)
-- [ ] Copy this entire README.md content into that repository
-- [ ] Replace all placeholders (see below)
-- [ ] Set up GitHub Actions for the snake animation
-- [ ] Pin your featured repositories
-- [ ] Upload any custom assets
-
----
-
-### 1️⃣ Create Your Profile Repository
-
-1. Go to [github.com/new](https://github.com/new)
-2. Repository name: `Binivert` (MUST match your username exactly)
-3. Make it **Public**
-4. Check "Add a README file"
-5. Click "Create repository"
-6. Replace the default README with this content
-
----
-
-### 2️⃣ Replace Placeholders
-
-#### LinkedIn URL
-Find this line in the README:
-```markdown
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](REPLACE_WITH_LINKEDIN_URL)
 ```
 
-Replace `REPLACE_WITH_LINKEDIN_URL` with your actual LinkedIn profile URL:
-```markdown
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-linkedin-username/)
+#### `assets/header-tech.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="50" viewBox="0 0 300 50">
+  <defs>
+    <style>
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 2px #00f0ff); }
+        50% { filter: drop-shadow(0 0 8px #00f0ff); }
+      }
+      .header-text {
+        font-family: 'Courier New', monospace;
+        font-size: 24px;
+        font-weight: bold;
+        fill: #00f0ff;
+        animation: glow 2s infinite;
+      }
+    </style>
+  </defs>
+  <rect width="300" height="50" fill="transparent"/>
+  <text class="header-text" x="150" y="32" text-anchor="middle">⚙ TECH ARSENAL</text>
+</svg>
 ```
 
-#### Other Social Links (Already configured)
-- Discord: `binitrion` ✓
-- Email: `bintrion@gmail.com` ✓
-- Instagram: `https://www.instagram.com/bini_v/` ✓
-- LeetCode: `https://leetcode.com/binivert/` ✓
-
----
-
-### 3️⃣ Set Up GitHub Actions for Snake Animation
-
-The contribution snake requires a GitHub Action to generate the SVG.
-
-#### Step 3.1: Create the workflow file
-
-1. In your `Binivert` repository, create folder: `.github/workflows/`
-2. Create file: `.github/workflows/snake.yml`
-3. Paste this content:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight UTC
-  workflow_dispatch: # Allows manual trigger
-  push:
-    branches:
-      - main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Generate Snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: Binivert
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#### `assets/header-repos.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="50" viewBox="0 0 350 50">
+  <defs>
+    <style>
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 2px #00f0ff); }
+        50% { filter: drop-shadow(0 0 8px #00f0ff); }
+      }
+      .header-text {
+        font-family: 'Courier New', monospace;
+        font-size: 24px;
+        font-weight: bold;
+        fill: #00f0ff;
+        animation: glow 2s infinite;
+      }
+    </style>
+  </defs>
+  <rect width="350" height="50" fill="transparent"/>
+  <text class="header-text" x="175" y="32" text-anchor="middle">◈ FEATURED SYSTEMS</text>
+</svg>
 ```
 
-#### Step 3.2: Enable Actions
+#### `assets/header-current.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="50" viewBox="0 0 350 50">
+  <defs>
+    <style>
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 2px #00f0ff); }
+        50% { filter: drop-shadow(0 0 8px #00f0ff); }
+      }
+      .header-text {
+        font-family: 'Courier New', monospace;
+        font-size: 24px;
+        font-weight: bold;
+        fill: #00f0ff;
+        animation: glow 2s infinite;
+      }
+    </style>
+  </defs>
+  <rect width="350" height="50" fill="transparent"/>
+  <text class="header-text" x="175" y="32" text-anchor="middle">▶ CURRENT PROTOCOLS</text>
+</svg>
+```
 
-1. Go to your repository → **Settings** → **Actions** → **General**
-2. Under "Workflow permissions", select **"Read and write permissions"**
-3. Click **Save**
+#### `assets/current-projects.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200">
+  <defs>
+    <style>
+      @keyframes fadeIn {
+        0% { opacity: 0; transform: translateX(-10px); }
+        100% { opacity: 1; transform: translateX(0); }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+      @keyframes pulse {
+        0%, 100% { fill: #00f0ff; }
+        50% { fill: #00ff80; }
+      }
+      .item { font-family: 'Courier New', monospace; font-size: 14px; fill: #a0d2db; }
+      .item1 { animation: fadeIn 0.5s ease-out; }
+      .item2 { animation: fadeIn 0.5s ease-out 0.2s both; }
+      .item3 { animation: fadeIn 0.5s ease-out 0.4s both; }
+      .item4 { animation: fadeIn 0.5s ease-out 0.6s both; }
+      .check { animation: pulse 2s infinite; }
+      .cursor { animation: blink 1s infinite; fill: #00f0ff; }
+    </style>
+  </defs>
+  <rect width="600" height="200" fill="#0a0f1a" rx="10"/>
+  
+  <!-- Border glow -->
+  <rect x="2" y="2" width="596" height="196" fill="none" stroke="#00f0ff" stroke-width="1" rx="10" opacity="0.3"/>
+  
+  <!-- Items -->
+  <g class="item1">
+    <text class="check" x="30" y="45">▸</text>
+    <text class="item" x="50" y="45">Building real-time vision pipelines for low-latency inference</text>
+  </g>
+  
+  <g class="item2">
+    <text class="check" x="30" y="85">▸</text>
+    <text class="item" x="50" y="85">Research &amp; prototyping with PyTorch/CUDA optimizations</text>
+  </g>
+  
+  <g class="item3">
+    <text class="check" x="30" y="125">▸</text>
+    <text class="item" x="50" y="125">Deploying vision models to edge devices</text>
+  </g>
+  
+  <g class="item4">
+    <text class="check" x="30" y="165">▸</text>
+    <text class="item" x="50" y="165">Integrating MediaPipe with custom detection systems</text>
+  </g>
+  
+  <!-- Blinking cursor -->
+  <rect class="cursor" x="570" y="155" width="10" height="18"/>
+</svg>
+```
 
-#### Step 3.3: Run the workflow
+#### `assets/icon-code.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      @keyframes glow { 0%, 100% { filter: drop-shadow(0 0 2px #00f0ff); } 50% { filter: drop-shadow(0 0 6px #00f0ff); } }
+      .icon { stroke: #00f0ff; fill: none; stroke-width: 2; animation: glow 2s infinite; }
+    </style>
+  </defs>
+  <rect width="40" height="40" fill="transparent"/>
+  <polyline class="icon" points="12,10 4,20 12,30"/>
+  <polyline class="icon" points="28,10 36,20 28,30"/>
+  <line class="icon" x1="22" y1="8" x2="18" y2="32"/>
+</svg>
+```
 
-1. Go to **Actions** tab
-2. Click "Generate Snake" workflow
-3. Click "Run workflow" → "Run workflow"
-4. Wait for it to complete (creates `output` branch with snake SVGs)
+#### `assets/icon-brain.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+      @keyframes glow { 0%, 100% { filter: drop-shadow(0 0 2px #00f0ff); } 50% { filter: drop-shadow(0 0 6px #00f0ff); } }
+      .brain { stroke: #00f0ff; fill: none; stroke-width: 1.5; animation: glow 2s infinite; }
+      .node { fill: #00f0ff; animation: pulse 1.5s infinite; }
+    </style>
+  </defs>
+  <rect width="40" height="40" fill="transparent"/>
+  <circle class="brain" cx="20" cy="20" r="12"/>
+  <path class="brain" d="M14,15 Q20,10 26,15 Q28,20 26,25 Q20,30 14,25 Q12,20 14,15"/>
+  <circle class="node" cx="15" cy="17" r="2"/>
+  <circle class="node" cx="25" cy="17" r="2" style="animation-delay: 0.3s;"/>
+  <circle class="node" cx="20" cy="25" r="2" style="animation-delay: 0.6s;"/>
+</svg>
+```
 
----
+#### `assets/icon-tools.svg`
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      @keyframes rotate { 0% { transform: rotate(0deg); transform-origin: 20px 20px; } 100% { transform: rotate(360deg); transform-origin: 20px 20px; } }
+      @keyframes glow { 0%, 100% { filter: drop-shadow(0 0 2px #00f0ff); } 50% { filter: drop-shadow(0 0 6px #00f0ff); } }
+      .gear { stroke: #00f0ff; fill: none; stroke-width: 1.5; animation: rotate 8s linear infinite, glow 2s infinite; }
+    </style>
+  </defs>
+  <rect width="40" height="40" fill="transparent"/>
+  <circle class="gear" cx="20" cy="20" r="8"/>
+  <circle class="gear" cx="20" cy="20" r="4"/>
+  <line class="gear" x1="20" y1="8" x2="20" y2="12"/>
+  <line class="gear" x1="20" y1="28" x2="20" y2="32"/>
+  <line class="gear" x1="8" y1="20" x2="12" y2="20"/>
+  <line class="gear" x1="28" y1="20" x2="32" y2="20"/>
+</svg>
+```
 
-### 4️⃣ Pin Your Featured Repositories
+### Step 3: Upload Assets to GitHub
 
-1. Go to your GitHub profile: `github.com/Binivert`
+1. Go to your `Binivert/Binivert` repository
+2. Click "Add file" → "Upload files"
+3. Drag all SVG files into the `assets/` folder
+4. Commit the changes
+
+### Step 4: Replace Placeholders
+
+In the README.md, find and replace:
+- `REPLACE_WITH_LINKEDIN_URL` → Your actual LinkedIn profile URL (e.g., `https://linkedin.com/in/your-username`)
+
+### Step 5: Verify Image URLs
+
+After uploading, verify all images load by visiting:
+```
+https://raw.githubusercontent.com/Binivert/Binivert/main/assets/hero-banner.svg
+```
+
+If images don't load, ensure:
+- The repository is public
+- File names match exactly (case-sensitive)
+- Files are in the `main` branch
+
+### Step 6: Pin Repositories (Optional Enhancement)
+
+1. Go to your GitHub profile page
 2. Click "Customize your pins"
-3. Select these repositories:
-   - `sl-interpreter`
-   - `security-system`
-   - `VisionArc`
+3. Select: `sl-interpreter`, `security-system`, `VisionArc`
 4. Click "Save pins"
 
----
+### Troubleshooting
 
-### 5️⃣ Personal Access Token (Optional - For Private Repo Stats)
+**If SVG animations don't play:**
+- GitHub caches images; wait 5-10 minutes or clear browser cache
+- Ensure SVGs are served from `raw.githubusercontent.com`
 
-If you want to include private repository statistics:
+**If stats cards don't load:**
+- The GitHub Readme Stats service occasionally has downtime
+- Fallback: Replace with static badges from shields.io
 
-#### Step 5.1: Create a Personal Access Token
+**If contribution graph doesn't load:**
+- The activity graph service may be rate-limited
+- Fallback: Use `https://github-readme-streak-stats.herokuapp.com/?user=Binivert&theme=dark&hide_border=true&background=0a0f1a&ring=00f0ff&fire=00f0ff&currStreakLabel=00f0ff`
 
-1. Go to [GitHub Settings → Developer Settings → Personal Access Tokens → Tokens (classic)](https://github.com/settings/tokens)
-2. Click "Generate new token (classic)"
-3. Name: `README_STATS`
-4. Select scopes:
-   - `repo` (Full control of private repositories)
-   - `read:user` (Read user profile data)
-5. Click "Generate token"
-6. **Copy the token immediately** (you won't see it again)
+### Alternative: Static Fallbacks
 
-#### Step 5.2: Add Token as Repository Secret
+If external services fail, replace widget URLs with static shields:
 
-1. Go to your `Binivert` repository → **Settings** → **Secrets and variables** → **Actions**
-2. Click "New repository secret"
-3. Name: `GH_TOKEN`
-4. Value: Paste your token
-5. Click "Add secret"
-
-⚠️ **SECURITY WARNING**: Never paste tokens directly in your README. Always use GitHub Secrets.
-
----
-
-### 6️⃣ Custom Assets (Optional)
-
-If you want to use custom GIF banners instead of SVG:
-
-1. Create an `assets/` folder in your repository
-2. Upload your GIF (e.g., `banner.gif`)
-3. Replace the SVG banner with:
 ```markdown
-![Banner](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/banner.gif)
+![GitHub Stats](https://img.shields.io/github/stars/Binivert?style=for-the-badge&color=00f0ff&labelColor=0a0f1a)
+![Commits](https://img.shields.io/github/commit-activity/y/Binivert/Binivert?style=for-the-badge&color=00f0ff&labelColor=0a0f1a)
 ```
-
-**Recommended GIF specs:**
-- Width: 800px
-- Height: 200px
-- File size: < 5MB (compress with [ezgif.com](https://ezgif.com/optimize))
-
----
-
-### 7️⃣ Widget Customization Reference
-
-#### GitHub Readme Stats
-```
-https://github-readme-stats.vercel.app/api?username=Binivert&show_icons=true&hide_border=true&bg_color=061028&title_color=00E5FF&icon_color=9B59FF&text_color=9bdcff
-```
-
-**Parameters:**
-- `bg_color`: Background color (hex without #)
-- `title_color`: Title text color
-- `icon_color`: Icon color
-- `text_color`: Body text color
-- `hide_border`: Remove border (true/false)
-- `show_icons`: Show icons (true/false)
-- `count_private`: Include private repos (true/false)
-
-#### Streak Stats
-```
-https://github-readme-streak-stats.herokuapp.com/?user=Binivert&hide_border=true&background=061028&stroke=00E5FF&ring=00E5FF&fire=9B59FF&currStreakNum=9bdcff
-```
-
-#### Activity Graph
-```
-https://github-readme-activity-graph.vercel.app/graph?username=Binivert&bg_color=061028&color=9bdcff&line=00E5FF&point=9B59FF&area=true&hide_border=true
-```
-
----
-
-### 8️⃣ Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| Snake not showing | Run the GitHub Action manually; check `output` branch exists |
-| Stats cards blank | Verify username is correct; widgets may have rate limits |
-| SVG not animating | Some browsers/renderers block SVG animations; this is normal |
-| Images broken | Check URLs are correct; ensure repository is public |
-| Widgets slow to load | Third-party services may have delays; this is normal |
-
----
-
-### 9️⃣ Maintenance Checklist
-
-**Monthly:**
-- [ ] Update "Last Updated" date in footer
-- [ ] Check all widget URLs still work
-- [ ] Compress any new GIFs added
-
-**Quarterly:**
-- [ ] Review and update tech stack if skills changed
-- [ ] Update featured projects if new repos created
-- [ ] Check third-party services (vercel apps) are still available
-
-**Fallbacks:**
-If any widget service goes down, these are reliable alternatives:
-- Stats: `https://github-readme-stats.vercel.app/` (multiple mirrors available)
-- Badges: `https://shields.io/` (very stable)
-- Icons: `https://skillicons.dev/` or `https://simpleicons.org/`
-
----
-
-### 🔒 Security Notes
-
-1. **Never** commit tokens or secrets to your README
-2. Use GitHub Secrets for any sensitive data
-3. Review Actions permissions periodically
-4. The `GITHUB_TOKEN` used in Actions is automatically provided and scoped
-
----
-
-### 📄 License
-
-This README design is shared under **CC-BY-NC-SA 4.0**.
-
-You may:
-- Share and adapt the design
-- Must give attribution
-- Non-commercial use only
-- Share adaptations under same license
-
-Feel free to change this license for your own profile.
-
----
-
-### 🎨 Color Palette Quick Reference
-
-```
---bg:        #061028  (Deep Navy)
---neon-cyan: #00E5FF  (Primary Accent)
---blue:      #0077FF  (Secondary)
---accent:    #9B59FF  (Purple Highlight)
---text:      #9bdcff  (Light Cyan Text)
---glass:     rgba(255,255,255,0.03)
-```
-
-To change the theme, find-and-replace these hex values throughout the README.
-
-</details>
-
----
-
-<div align="center">
-<sub>⚡ Crafted with 💜 and lots of ☕ ⚡</sub>
-</div>
