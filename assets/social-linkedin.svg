@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); filter: drop-shadow(0 0 3px #0077b5); }
+        50% { transform: scale(1.1); filter: drop-shadow(0 0 10px #0077b5); }
+      }
+      .bg { fill: #0a0f1a; }
+      .border { stroke: #0077b5; stroke-width: 2; fill: none; }
+      .icon { animation: pulse 2s infinite; }
+      .li { fill: #0077b5; }
+    </style>
+  </defs>
+  <rect class="bg" width="50" height="50" rx="10"/>
+  <rect class="border" x="2" y="2" width="46" height="46" rx="10"/>
+  <g class="icon">
+    <rect class="li" x="12" y="20" width="6" height="18"/>
+    <circle class="li" cx="15" cy="14" r="4"/>
+    <path class="li" d="M22 20h6v2.5c1-1.5 3-3 6-3 5 0 6 3 6 8v10.5h-6v-9c0-2-0.5-4-3-4s-3 2-3 4v9h-6z"/>
+  </g>
+</svg>

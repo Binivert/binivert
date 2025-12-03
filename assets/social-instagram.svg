@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); filter: drop-shadow(0 0 3px #e4405f); }
+        50% { transform: scale(1.1); filter: drop-shadow(0 0 10px #e4405f); }
+      }
+      .bg { fill: #0a0f1a; }
+      .border { stroke: #e4405f; stroke-width: 2; fill: none; }
+      .icon { animation: pulse 2s infinite 0.2s; }
+      .insta { fill: none; stroke: #e4405f; stroke-width: 2; }
+      .insta-fill { fill: #e4405f; }
+    </style>
+  </defs>
+  <rect class="bg" width="50" height="50" rx="10"/>
+  <rect class="border" x="2" y="2" width="46" height="46" rx="10"/>
+  <g class="icon">
+    <rect class="insta" x="13" y="13" width="24" height="24" rx="6"/>
+    <circle class="insta" cx="25" cy="25" r="6"/>
+    <circle class="insta-fill" cx="33" cy="17" r="2"/>
+  </g>
+</svg>

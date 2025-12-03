@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
+      }
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 5px #3178c6); }
+        50% { filter: drop-shadow(0 0 15px #3178c6); }
+      }
+      @keyframes borderPulse {
+        0%, 100% { stroke-opacity: 0.3; }
+        50% { stroke-opacity: 0.8; }
+      }
+      .card { fill: #0a0f1a; }
+      .border { stroke: #3178c6; stroke-width: 2; fill: none; animation: borderPulse 2s infinite; }
+      .icon-group { animation: float 3s ease-in-out infinite 0.6s, glow 2s infinite; }
+      .name { font-family: 'Courier New', monospace; font-size: 10px; fill: #a0d2db; }
+      .ts-bg { fill: #3178c6; }
+    </style>
+  </defs>
+  <rect class="card" width="100" height="100" rx="10"/>
+  <rect class="border" x="2" y="2" width="96" height="96" rx="10"/>
+  <g class="icon-group" transform="translate(25, 10)">
+    <rect class="ts-bg" width="50" height="50" rx="5"/>
+    <text x="25" y="38" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="white">TS</text>
+  </g>
+  <text class="name" x="50" y="85" text-anchor="middle">TYPESCRIPT</text>
+</svg>
