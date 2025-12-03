@@ -1,337 +1,561 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- HERO BANNER -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+![Header](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/hero-banner.svg)
 
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/hero-banner.svg" alt="Biniyam Bonger - AI • Computer Vision • Deep Learning Explorer" width="100%" />
+<br>
 
-<!-- COMPACT FLOATING SOCIAL ICONS -->
-<br/>
+<a href="YOUR_LINKEDIN_URL"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-linkedin.svg" width="50" height="50" alt="LinkedIn"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://instagram.com/YOUR_INSTAGRAM"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-instagram.svg" width="50" height="50" alt="Instagram"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://leetcode.com/YOUR_LEETCODE"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-leetcode.svg" width="50" height="50" alt="LeetCode"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="mailto:bintrion@gmail.com"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-email.svg" width="50" height="50" alt="Email"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://discord.com/users/YOUR_DISCORD"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-discord.svg" width="50" height="50" alt="Discord"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="YOUR_WEBSITE"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-website.svg" width="50" height="50" alt="Website"/></a>
 
-<a href="https://www.linkedin.com/in/REPLACE_WITH_YOUR_LINKEDIN/" title="LinkedIn"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-linkedin.svg" alt="LinkedIn" width="50" /></a>
-&nbsp;&nbsp;
-<a href="https://www.instagram.com/bini_v/" title="Instagram"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-instagram.svg" alt="Instagram" width="50" /></a>
-&nbsp;&nbsp;
-<a href="https://leetcode.com/binivert/" title="LeetCode"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-leetcode.svg" alt="LeetCode" width="50" /></a>
-&nbsp;&nbsp;
-<a href="mailto:bintrion@gmail.com" title="Email Me"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-email.svg" alt="Email" width="50" /></a>
-&nbsp;&nbsp;
-<a href="https://discord.com/users/binitrion" title="Discord: binitrion"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-discord.svg" alt="Discord" width="50" /></a>
-&nbsp;&nbsp;
-<a href="https://github.com/Binivert" title="GitHub"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-github.svg" alt="GitHub" width="50" /></a>
+<br><br>
 
-<br/>
-
-<!-- ANIMATED DIVIDER -->
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-neon.svg" alt="divider" width="100%" />
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-neon.svg)
 
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- INTRODUCTION SECTION -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<br>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-about.svg" alt="About" width="400" />
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/intro-terminal.svg" alt="Introduction" width="700" />
+![About](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-about.svg)
 
 </div>
 
-<br/>
+<br>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- STATS DASHBOARD -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+![Terminal](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/intro-terminal.svg)
+
+<br>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-stats.svg" alt="Stats" width="500" />
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-glitch.svg)
 
-<br/><br/>
+</div>
 
-<!-- STATS ROW 1: Main Stats + Languages -->
-<table>
-<tr>
-<td align="center" width="50%">
+<br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Binivert&show_icons=true&hide_border=true&bg_color=0a0f1a&title_color=00f0ff&text_color=a0d2db&icon_color=00f0ff&include_all_commits=true&count_private=true&ring_color=00f0ff" alt="GitHub Stats" width="100%" />
+<div align="center">
 
-</td>
-<td align="center" width="50%">
+![Mission](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-mission.svg)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Binivert&layout=compact&hide_border=true&bg_color=0a0f1a&title_color=00f0ff&text_color=a0d2db&langs_count=8" alt="Top Languages" width="100%" />
+</div>
 
-</td>
-</tr>
+<br>
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║   "To bridge the gap between human intention and machine understanding,      ║
+║    creating AI systems that enhance accessibility and empower everyone."    ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-neon.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Stats](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-stats.svg)
+
+</div>
+
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Binivert&theme=tokyonight&hide_border=true&background=0a0f1a&stroke=00f0ff&ring=00f0ff&fire=ff0080&currStreakNum=00f0ff&sideNums=00f0ff&currStreakLabel=a0d2db&sideLabels=a0d2db&dates=4a5568" alt="GitHub Streak" />
+    </td>
+    <td align="center">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Binivert&bg_color=0a0f1a&color=00f0ff&line=00f0ff&point=ff0080&area=true&area_color=00f0ff&hide_border=true" alt="Activity Graph" width="500"/>
+    </td>
+  </tr>
 </table>
 
-<!-- STREAK STATS -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Binivert&hide_border=true&background=0a0f1a&ring=00f0ff&fire=00f0ff&currStreakLabel=00f0ff&sideLabels=a0d2db&currStreakNum=00f0ff&sideNums=a0d2db&dates=4a5568" alt="Streak Stats" width="700" />
+<br>
 
-<br/><br/>
-
-<!-- ACTIVITY GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Binivert&bg_color=0a0f1a&color=00f0ff&line=00f0ff&point=ffffff&area=true&area_color=0a2540&hide_border=true&custom_title=NEURAL%20ACTIVITY%20MATRIX" alt="Activity Graph" width="100%" />
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ANIMATED DIVIDER -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-glitch.svg" alt="divider" width="100%" />
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- TECH ARSENAL - CUBE STYLE SKILLS -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-tech.svg" alt="Tech Arsenal" width="500" />
-
-<br/><br/>
-
-<!-- LANGUAGES ROW -->
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/category-languages.svg" alt="Languages" width="250" />
-
-<br/><br/>
-
-<table>
-<tr>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-python.svg" alt="Python" width="100" height="100" />
-</td>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-cpp.svg" alt="C++" width="100" height="100" />
-</td>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-javascript.svg" alt="JavaScript" width="100" height="100" />
-</td>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-typescript.svg" alt="TypeScript" width="100" height="100" />
-</td>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-java.svg" alt="Java" width="100" height="100" />
-</td>
-</tr>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=Binivert&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0f1a&title_color=00f0ff&icon_color=ff0080&text_color=a0d2db" alt="GitHub Stats" />
+    </td>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Binivert&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0f1a&title_color=00f0ff&text_color=a0d2db" alt="Top Languages" />
+    </td>
+  </tr>
 </table>
 
-<br/>
+<br>
 
-<!-- ML / VISION ROW -->
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/category-mlvision.svg" alt="ML Vision" width="300" />
+<div align="center">
 
-<br/><br/>
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-glitch.svg)
 
-<table>
-<tr>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-pytorch.svg" alt="PyTorch" width="100" height="100" />
-</td>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-tensorflow.svg" alt="TensorFlow" width="100" height="100" />
-</td>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-opencv.svg" alt="OpenCV" width="100" height="100" />
-</td>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-mediapipe.svg" alt="MediaPipe" width="100" height="100" />
-</td>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-cuda.svg" alt="CUDA" width="100" height="100" />
-</td>
-</tr>
+</div>
+
+<br>
+
+<div align="center">
+
+![Tech](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-tech.svg)
+
+</div>
+
+<br>
+
+<table align="center">
+  <tr>
+    <th align="center">💻 Languages</th>
+    <th align="center">🧠 ML / Vision</th>
+    <th align="center">🛠️ Tools / DevOps</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/><br>
+      <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/><br>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/><br>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/><br>
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/><br>
+      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/><br>
+      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/><br>
+      <img src="https://img.shields.io/badge/MediaPipe-00F0FF?style=for-the-badge&logo=google&logoColor=white" alt="MediaPipe"/><br>
+      <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/><br>
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/><br>
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/><br>
+      <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/><br>
+      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+    </td>
+  </tr>
 </table>
 
-<br/>
+<br>
 
-<!-- TOOLS ROW -->
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/category-tools.svg" alt="Tools" width="280" />
+<div align="center">
 
-<br/><br/>
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-neon.svg)
 
-<table>
-<tr>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-docker.svg" alt="Docker" width="100" height="100" />
-</td>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-git.svg" alt="Git" width="100" height="100" />
-</td>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-linux.svg" alt="Linux" width="100" height="100" />
-</td>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-aws.svg" alt="AWS" width="100" height="100" />
-</td>
-<td align="center" width="120">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/skill-vscode.svg" alt="VS Code" width="100" height="100" />
-</td>
-</tr>
+</div>
+
+<br>
+
+<div align="center">
+
+![Learning](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-learning.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  📖 CURRENTLY EXPLORING                                                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  ▸ Transformer architectures for vision tasks (ViT, DETR, Swin)            │
+│  ▸ 3D pose estimation and motion capture                                   │
+│  ▸ Real-time object detection optimization (YOLO, EfficientDet)            │
+│  ▸ Edge deployment with TensorRT and ONNX                                  │
+│  ▸ Generative AI for synthetic data augmentation                           │
+│  ▸ Multi-modal learning (vision + language models)                         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-glitch.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Repos](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-repos.svg)
+
+</div>
+
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/Binivert/SL-Interpreter">
+        <img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/project-sl-interpreter.svg" width="300" alt="SL-Interpreter"/>
+      </a>
+      <br><br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/Binivert/Security-System">
+        <img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/project-security-system.svg" width="300" alt="Security-System"/>
+      </a>
+      <br><br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black"/>
+      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/Binivert/VisionArc">
+        <img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/project-visionarc.svg" width="300" alt="VisionArc"/>
+      </a>
+      <br><br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MediaPipe-00F0FF?style=flat-square&logo=google&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PyAutoGUI-FF6B6B?style=flat-square&logo=python&logoColor=white"/>
+    </td>
+  </tr>
 </table>
 
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ANIMATED DIVIDER -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-neon.svg" alt="divider" width="100%" />
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- FEATURED REPOSITORIES -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<br>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-repos.svg" alt="Featured Systems" width="550" />
-
-<br/><br/>
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-<a href="https://github.com/Binivert/sl-interpreter">
-<img src="https://raw.githubusercontent.com/Binivert/sl-interpreter/main/image/header.jpg" alt="SL Interpreter" width="280" height="160" />
-</a>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/repo-sl-interpreter.svg" alt="SL Interpreter Title" width="250" />
-
-<br/>
-
-```
-Bridging silence with sight
-Real-time sign language
-interpreted through neural eyes
-```
-
-<br/>
-
-![Stars](https://img.shields.io/github/stars/Binivert/sl-interpreter?style=for-the-badge&color=00f0ff&labelColor=0a0f1a&logo=github)
-![Forks](https://img.shields.io/github/forks/Binivert/sl-interpreter?style=for-the-badge&color=00f0ff&labelColor=0a0f1a&logo=git)
-
-</td>
-<td align="center" width="33%">
-
-<a href="https://github.com/Binivert/security-system">
-<img src="https://raw.githubusercontent.com/Binivert/security-system/main/image/header.jpg" alt="Security System" width="280" height="160" />
-</a>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/repo-security-system.svg" alt="Security System Title" width="250" />
-
-<br/>
-
-```
-The vigilant sentinel
-Intelligent surveillance that
-never blinks, never sleeps
-```
-
-<br/>
-
-![Stars](https://img.shields.io/github/stars/Binivert/security-system?style=for-the-badge&color=00f0ff&labelColor=0a0f1a&logo=github)
-![Forks](https://img.shields.io/github/forks/Binivert/security-system?style=for-the-badge&color=00f0ff&labelColor=0a0f1a&logo=git)
-
-</td>
-<td align="center" width="33%">
-
-<a href="https://github.com/Binivert/VisionArc">
-<img src="https://raw.githubusercontent.com/Binivert/VisionArc/main/image/header.jpg" alt="VisionArc" width="280" height="160" />
-</a>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/repo-visionarc.svg" alt="VisionArc Title" width="250" />
-
-<br/>
-
-```
-The architect's toolkit
-Crafting vision pipelines
-from concept to deployment
-```
-
-<br/>
-
-![Stars](https://img.shields.io/github/stars/Binivert/VisionArc?style=for-the-badge&color=00f0ff&labelColor=0a0f1a&logo=github)
-![Forks](https://img.shields.io/github/forks/Binivert/VisionArc?style=for-the-badge&color=00f0ff&labelColor=0a0f1a&logo=git)
-
-</td>
-</tr>
-</table>
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-neon.svg)
 
 </div>
 
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ANIMATED DIVIDER -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-glitch.svg" alt="divider" width="100%" />
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- CURRENT PROTOCOLS -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<br>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-protocols.svg" alt="Current Protocols" width="550" />
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/current-protocols.svg" alt="Current Protocols List" width="800" />
+![Achievements](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-achievements.svg)
 
 </div>
 
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ANIMATED DIVIDER -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<br>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-neon.svg" alt="divider" width="100%" />
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║  🏆 ACHIEVEMENTS & MILESTONES                                                 ║
+╠═══════════════════════════════════════════════════════════════════════════════╣
+║                                                                               ║
+║  🎓 High School Graduate with focus on STEM                                   ║
+║  🥇 Built Sign Language Interpreter reaching 95%+ accuracy                    ║
+║  🔐 Developed real-time security system with face recognition                 ║
+║  🎮 Created gesture-controlled gaming interface                               ║
+║  📚 Self-taught AI/ML through online courses and projects                     ║
+║  💻 Active open-source contributor                                            ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+```
+
 </div>
 
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- NEURAL SIGNATURE / FOOTER -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<br>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/footer-signature.svg" alt="Neural Signature" width="100%" />
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-glitch.svg)
 
-<br/>
+</div>
 
-<img src="https://komarev.com/ghpvc/?username=Binivert&style=for-the-badge&color=00f0ff&labelColor=0a0f1a&label=PROFILE+SCANS" alt="Profile Views" />
+<br>
+
+<div align="center">
+
+![Research](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-research.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  🔬 RESEARCH INTERESTS                                                       │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  ◆ Accessibility Technology                                                 │
+│    └─ Making technology inclusive for deaf and hard-of-hearing communities │
+│                                                                             │
+│  ◆ Human-Computer Interaction                                               │
+│    └─ Natural gesture interfaces, reducing barrier between human & machine │
+│                                                                             │
+│  ◆ Real-time Computer Vision                                                │
+│    └─ Optimizing inference for edge devices and embedded systems           │
+│                                                                             │
+│  ◆ Ethical AI                                                               │
+│    └─ Building fair, transparent, and accountable AI systems               │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-neon.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Protocols](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-protocols.svg)
+
+</div>
+
+<br>
+
+![Protocols](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/current-protocols.svg)
+
+<br>
+
+<div align="center">
+
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-glitch.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Hobbies](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-hobbies.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  🎮 BEYOND THE CODE                                                          │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  🎵 Music       │  Creating beats and exploring sound design                │
+│  📷 Photography │  Capturing moments through computational photography      │
+│  🎮 Gaming      │  Strategy games and testing my own gesture controls       │
+│  📖 Reading     │  AI research papers, sci-fi, and tech blogs               │
+│  🏃 Fitness     │  Running and staying active for a sharp mind              │
+│  🌍 Languages   │  Learning new human languages alongside programming ones  │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-neon.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Fun Facts](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-funfacts.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║  💡 RANDOM FACTS ABOUT ME                                                     ║
+╠═══════════════════════════════════════════════════════════════════════════════╣
+║                                                                               ║
+║  ⚡ I debug best at 2 AM with lo-fi beats playing                             ║
+║  ⚡ My first program was a calculator that could only add                      ║
+║  ⚡ I've trained models on 3 different continents' cloud servers              ║
+║  ⚡ Coffee consumption directly correlates with commit frequency              ║
+║  ⚡ I learned Python by building a bot to automate my homework reminders      ║
+║  ⚡ My dream is to make AI that helps people communicate without barriers     ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-glitch.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Resources](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-resources.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  📚 FAVORITE LEARNING RESOURCES                                              │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  📺 YouTube     │  3Blue1Brown, Andrej Karpathy, Two Minute Papers          │
+│  📖 Courses     │  Fast.ai, Stanford CS231n, DeepLearning.AI                │
+│  📄 Papers      │  ArXiv daily digest, Papers With Code                     │
+│  💬 Communities │  Reddit ML, Discord AI servers, Twitter/X AI              │
+│  📚 Books       │  "Deep Learning" by Goodfellow, "Hands-On ML" by Géron    │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-neon.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Collaboration](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-collaboration.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║  🤝 LET'S BUILD SOMETHING AMAZING TOGETHER                                    ║
+╠═══════════════════════════════════════════════════════════════════════════════╣
+║                                                                               ║
+║  I'm always excited to collaborate on:                                        ║
+║                                                                               ║
+║  ✦ Computer Vision projects with real-world impact                           ║
+║  ✦ Accessibility tools and assistive technology                              ║
+║  ✦ Open-source AI/ML libraries and frameworks                                ║
+║  ✦ Creative applications of gesture recognition                             ║
+║  ✦ Research projects in human-computer interaction                           ║
+║                                                                               ║
+║  Have an idea? Let's talk! → bintrion@gmail.com                              ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-glitch.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Quote](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/header-quote.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+```
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                             ┃
+┃   "The best way to predict the future is to invent it."                     ┃
+┃                                                    — Alan Kay               ┃
+┃                                                                             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+```
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Divider](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/divider-neon.svg)
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Footer](https://raw.githubusercontent.com/Binivert/Binivert/main/assets/footer-signature.svg)
+
+<br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=Binivert&color=00f0ff&style=for-the-badge&label=PROFILE+VIEWS)
+
+<br>
+
+```
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⠟⠋⠉⠉⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠉⠉⠉⠙⠻⣿⣿⣿⣿
+⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿
+⣿⣿⡏⠀⠀⣴⣶⣶⣦⠀⠀⠀⢻⣿⣿⣿⣿⡟⠀⠀⠀⣴⣶⣶⣦⠀⠀⢹⣿⣿
+⣿⣿⡇⠀⠀⣿⣿⣿⣿⠀⠀⠀⢸⣿⣿⣿⣿⡇⠀⠀⠀⣿⣿⣿⣿⠀⠀⢸⣿⣿
+⣿⣿⣧⠀⠀⠈⠛⠛⠁⠀⠀⢀⣾⣿⣿⣿⣿⣷⡀⠀⠀⠈⠛⠛⠁⠀⠀⣼⣿⣿
+⣿⣿⣿⣷⣄⡀⠀⠀⠀⣀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣦⣀⠀⠀⠀⢀⣠⣾⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+```
+
+**Thanks for visiting! May your code compile on the first try.** ✨
 
 </div>
