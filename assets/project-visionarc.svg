@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <style>
+      @keyframes wobble {
+        0%, 100% { transform: rotate(-5deg); }
+        50% { transform: rotate(5deg); }
+      }
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 5px rgba(0, 240, 255, 0.5)); }
+        50% { filter: drop-shadow(0 0 15px rgba(0, 240, 255, 0.8)); }
+      }
+      .bg { fill: #0a0f1a; }
+      .border { stroke: #00f0ff; stroke-width: 2; fill: none; opacity: 0.5; }
+      .joystick { fill: #0d1520; stroke: #00f0ff; stroke-width: 2; }
+      .stick { fill: #00f0ff; animation: glow 2s infinite; }
+      .stick-move { transform-origin: 75px 90px; animation: wobble 1s ease-in-out infinite; }
+      .button { fill: #ff0080; }
+      .button2 { fill: #00ff80; }
+    </style>
+  </defs>
+  <rect class="bg" width="150" height="150" rx="15"/>
+  <rect class="border" x="5" y="5" width="140" height="140" rx="12"/>
+  
+  <!-- Joystick base -->
+  <ellipse class="joystick" cx="75" cy="100" rx="45" ry="20"/>
+  
+  <!-- Joystick stick -->
+  <g class="stick-move">
+    <rect class="stick" x="70" y="45" width="10" height="55" rx="5"/>
+    <circle class="stick" cx="75" cy="40" r="18"/>
+  </g>
+  
+  <!-- Buttons -->
+  <circle class="button" cx="115" cy="55" r="8"/>
+  <circle class="button2" cx="130" cy="70" r="6"/>
+</svg>

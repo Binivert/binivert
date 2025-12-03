@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
+      }
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 5px #ee4c2c); }
+        50% { filter: drop-shadow(0 0 15px #ee4c2c); }
+      }
+      @keyframes borderPulse {
+        0%, 100% { stroke-opacity: 0.3; }
+        50% { stroke-opacity: 0.8; }
+      }
+      @keyframes flame {
+        0%, 100% { transform: scale(1) rotate(0deg); }
+        25% { transform: scale(1.05) rotate(-2deg); }
+        75% { transform: scale(0.95) rotate(2deg); }
+      }
+      .card { fill: #0a0f1a; }
+      .border { stroke: #ee4c2c; stroke-width: 2; fill: none; animation: borderPulse 2s infinite; }
+      .icon-group { animation: float 3s ease-in-out infinite, glow 2s infinite; }
+      .name { font-family: 'Courier New', monospace; font-size: 11px; fill: #a0d2db; }
+      .torch { fill: #ee4c2c; animation: flame 1s ease-in-out infinite; transform-origin: center; }
+    </style>
+  </defs>
+  <rect class="card" width="100" height="100" rx="10"/>
+  <rect class="border" x="2" y="2" width="96" height="96" rx="10"/>
+  <g class="icon-group" transform="translate(30, 10)">
+    <path class="torch" d="M20 0 C25 10 35 15 35 30 C35 45 25 50 20 50 C15 50 5 45 5 30 C5 15 15 10 20 0 Z"/>
+    <circle fill="#ee4c2c" cx="30" cy="10" r="5"/>
+  </g>
+  <text class="name" x="50" y="85" text-anchor="middle">PYTORCH</text>
+</svg>

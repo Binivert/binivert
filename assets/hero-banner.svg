@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <style>
+      @keyframes glitch1 {
+        0%, 100% { transform: translate(0); }
+        20% { transform: translate(-3px, 3px); }
+        40% { transform: translate(-3px, -3px); }
+        60% { transform: translate(3px, 3px); }
+        80% { transform: translate(3px, -3px); }
+      }
+      @keyframes glitch2 {
+        0%, 100% { clip-path: inset(0 0 0 0); opacity: 0; }
+        5% { clip-path: inset(20% 0 60% 0); opacity: 1; }
+        10% { clip-path: inset(50% 0 30% 0); opacity: 1; }
+        15% { clip-path: inset(10% 0 70% 0); opacity: 1; }
+        20% { clip-path: inset(0 0 0 0); opacity: 0; }
+      }
+      @keyframes typing {
+        0%, 10% { width: 0; }
+        30%, 100% { width: 100%; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes scanline {
+        0% { top: -10%; }
+        100% { top: 110%; }
+      }
+      @keyframes flicker {
+        0%, 100% { opacity: 1; }
+        92% { opacity: 1; }
+        93% { opacity: 0.8; }
+        94% { opacity: 1; }
+        97% { opacity: 0.9; }
+        98% { opacity: 1; }
+      }
+      .bg { fill: #0a0f1a; }
+      .grid { stroke: #00f0ff; stroke-width: 0.3; opacity: 0.1; }
+      .main-text {
+        font-family: 'Courier New', monospace;
+        font-size: 80px;
+        font-weight: bold;
+        fill: #00f0ff;
+        filter: drop-shadow(0 0 20px rgba(0, 240, 255, 0.8));
+        animation: glitch1 5s infinite, flicker 8s infinite;
+      }
+      .glitch-r {
+        font-family: 'Courier New', monospace;
+        font-size: 80px;
+        font-weight: bold;
+        fill: #ff0080;
+        animation: glitch2 3s infinite;
+      }
+      .glitch-g {
+        font-family: 'Courier New', monospace;
+        font-size: 80px;
+        font-weight: bold;
+        fill: #00ff80;
+        animation: glitch2 3s infinite 0.1s;
+      }
+      .subtitle {
+        font-family: 'Courier New', monospace;
+        font-size: 22px;
+        fill: #a0d2db;
+        letter-spacing: 12px;
+      }
+      .cursor {
+        fill: #00f0ff;
+        animation: blink 1s infinite;
+      }
+      .corner {
+        stroke: #00f0ff;
+        stroke-width: 2;
+        fill: none;
+        opacity: 0.6;
+      }
+      .scanline {
+        fill: rgba(0, 240, 255, 0.03);
+        animation: scanline 4s linear infinite;
+      }
+      .accent { stroke: #ff0080; stroke-width: 1; opacity: 0.5; }
+      .dot { fill: #00f0ff; opacity: 0.6; }
+      .status { font-family: 'Courier New', monospace; font-size: 11px; fill: #4a5568; }
+    </style>
+  </defs>
+  
+  <rect class="bg" width="1200" height="300"/>
+  
+  <!-- Grid -->
+  <g>
+    <line class="grid" x1="0" y1="60" x2="1200" y2="60"/>
+    <line class="grid" x1="0" y1="120" x2="1200" y2="120"/>
+    <line class="grid" x1="0" y1="180" x2="1200" y2="180"/>
+    <line class="grid" x1="0" y1="240" x2="1200" y2="240"/>
+    <line class="grid" x1="200" y1="0" x2="200" y2="300"/>
+    <line class="grid" x1="400" y1="0" x2="400" y2="300"/>
+    <line class="grid" x1="600" y1="0" x2="600" y2="300"/>
+    <line class="grid" x1="800" y1="0" x2="800" y2="300"/>
+    <line class="grid" x1="1000" y1="0" x2="1000" y2="300"/>
+  </g>
+  
+  <!-- Scanline -->
+  <rect class="scanline" x="0" y="0" width="1200" height="8"/>
+  
+  <!-- Corners -->
+  <path class="corner" d="M 20,20 L 20,60 M 20,20 L 60,20"/>
+  <path class="corner" d="M 1180,20 L 1180,60 M 1180,20 L 1140,20"/>
+  <path class="corner" d="M 20,280 L 20,240 M 20,280 L 60,280"/>
+  <path class="corner" d="M 1180,280 L 1180,240 M 1180,280 L 1140,280"/>
+  
+  <!-- Accent lines -->
+  <line class="accent" x1="100" y1="150" x2="350" y2="150"/>
+  <line class="accent" x1="850" y1="150" x2="1100" y2="150"/>
+  
+  <!-- Dots -->
+  <circle class="dot" cx="100" cy="150" r="4"/>
+  <circle class="dot" cx="1100" cy="150" r="4"/>
+  
+  <!-- Glitch layers -->
+  <text class="glitch-r" x="600" y="130" text-anchor="middle">BINIYAM BONGER</text>
+  <text class="glitch-g" x="600" y="130" text-anchor="middle">BINIYAM BONGER</text>
+  <text class="main-text" x="600" y="130" text-anchor="middle">BINIYAM BONGER</text>
+  
+  <!-- Subtitle -->
+  <text class="subtitle" x="600" y="180" text-anchor="middle">COMPUTER VISION • AI ENGINEER • BUILDER</text>
+  
+  <!-- Typing cursor -->
+  <rect class="cursor" x="920" y="160" width="15" height="25"/>
+  
+  <!-- Status -->
+  <text class="status" x="600" y="260" text-anchor="middle">[ INITIALIZING NEURAL INTERFACE... SYSTEM ONLINE ]</text>
+  
+  <!-- Bottom accent -->
+  <line stroke="#00f0ff" stroke-width="1" opacity="0.3" x1="200" y1="230" x2="1000" y2="230"/>
+  <circle fill="#00f0ff" opacity="0.5" cx="600" cy="230" r="5"/>
+</svg>

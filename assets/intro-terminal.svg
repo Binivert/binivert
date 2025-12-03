@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="320" viewBox="0 0 900 320">
+  <defs>
+    <style>
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      .terminal-bg { fill: #0a0f1a; }
+      .terminal-header { fill: #0d1520; }
+      .dot-r { fill: #ff5f56; }
+      .dot-y { fill: #ffbd2e; }
+      .dot-g { fill: #27ca40; }
+      .title { font-family: 'Courier New', monospace; font-size: 12px; fill: #4a5568; }
+      .prompt { font-family: 'Courier New', monospace; font-size: 14px; fill: #00f0ff; }
+      .command { font-family: 'Courier New', monospace; font-size: 14px; fill: #ff0080; }
+      .text { font-family: 'Courier New', monospace; font-size: 14px; fill: #a0d2db; }
+      .highlight { font-family: 'Courier New', monospace; font-size: 14px; fill: #00ff80; }
+      .cursor { fill: #00f0ff; animation: blink 1s infinite; }
+      .border { stroke: #00f0ff; stroke-width: 1; fill: none; opacity: 0.3; }
+    </style>
+  </defs>
+  
+  <rect class="terminal-bg" width="900" height="320" rx="8"/>
+  <rect class="border" x="1" y="1" width="898" height="318" rx="8"/>
+  
+  <rect class="terminal-header" x="0" y="0" width="900" height="30" rx="8"/>
+  <rect fill="#0d1520" x="0" y="20" width="900" height="10"/>
+  <circle class="dot-r" cx="20" cy="15" r="6"/>
+  <circle class="dot-y" cx="40" cy="15" r="6"/>
+  <circle class="dot-g" cx="60" cy="15" r="6"/>
+  <text class="title" x="450" y="18" text-anchor="middle">biniyam@neural-core:~</text>
+  
+  <text class="prompt" x="20" y="60">$</text>
+  <text class="command" x="35" y="60">cat about.txt</text>
+  
+  <text class="highlight" x="20" y="90">┌──────────────────────────────────────────────────────────────────────────────┐</text>
+  <text class="text" x="20" y="115">│  Hey! I'm Biniyam, a high school graduate with an obsession for AI.         │</text>
+  <text class="text" x="20" y="140">│  I spend my days teaching machines to see and understand the world.         │</text>
+  <text class="text" x="20" y="165">│                                                                              │</text>
+  <text class="text" x="20" y="190">│  🎯 Currently deep-diving into: Computer Vision, Deep Learning, Edge AI     │</text>
+  <text class="text" x="20" y="215">│  🔨 Built: Sign Language Interpreter, Security Systems, Gesture Gaming      │</text>
+  <text class="text" x="20" y="240">│  🌱 Learning: Transformers, 3D Vision, Real-time Optimization               │</text>
+  <text class="text" x="20" y="265">│  ⚡ Goal: Create AI that makes technology accessible to everyone            │</text>
+  <text class="highlight" x="20" y="290">└──────────────────────────────────────────────────────────────────────────────┘</text>
+  
+  <text class="prompt" x="20" y="310">$</text>
+  <rect class="cursor" x="35" y="297" width="10" height="16"/>
+</svg>
