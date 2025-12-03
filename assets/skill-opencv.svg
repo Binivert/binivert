@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
+      }
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 5px #5c3ee8); }
+        50% { filter: drop-shadow(0 0 15px #5c3ee8); }
+      }
+      @keyframes borderPulse {
+        0%, 100% { stroke-opacity: 0.3; }
+        50% { stroke-opacity: 0.8; }
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      .card { fill: #0a0f1a; }
+      .border { stroke: #5c3ee8; stroke-width: 2; fill: none; animation: borderPulse 2s infinite; }
+      .icon-group { animation: float 3s ease-in-out infinite 0.4s, glow 2s infinite; }
+      .name { font-family: 'Courier New', monospace; font-size: 11px; fill: #a0d2db; }
+      .cv-red { fill: #ff0000; }
+      .cv-green { fill: #00ff00; }
+      .cv-blue { fill: #0000ff; }
+    </style>
+  </defs>
+  <rect class="card" width="100" height="100" rx="10"/>
+  <rect class="border" x="2" y="2" width="96" height="96" rx="10"/>
+  <g class="icon-group" transform="translate(25, 10)">
+    <circle class="cv-red" cx="15" cy="15" r="12" opacity="0.8"/>
+    <circle class="cv-green" cx="35" cy="15" r="12" opacity="0.8"/>
+    <circle class="cv-blue" cx="25" cy="35" r="12" opacity="0.8"/>
+  </g>
+  <text class="name" x="50" y="85" text-anchor="middle">OPENCV</text>
+</svg>

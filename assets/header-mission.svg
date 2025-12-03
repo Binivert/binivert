@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="60" viewBox="0 0 400 60">
+  <defs>
+    <style>
+      .header-text {
+        font-family: 'Courier New', monospace;
+        font-size: 36px;
+        font-weight: bold;
+        fill: #00f0ff;
+        filter: drop-shadow(0 0 6px rgba(0, 240, 255, 0.5));
+      }
+    </style>
+  </defs>
+  <rect width="400" height="60" fill="transparent"/>
+  <text class="header-text" x="200" y="40" text-anchor="middle">🎯 MISSION</text>
+</svg>

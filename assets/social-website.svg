@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .bg { fill: #0a0f1a; stroke: #00ff80; stroke-width: 1; }
+      .icon { fill: none; stroke: #00ff80; stroke-width: 2; filter: drop-shadow(0 0 4px rgba(0, 255, 128, 0.6)); }
+    </style>
+  </defs>
+  <rect class="bg" x="1" y="1" width="48" height="48" rx="10"/>
+  <circle class="icon" cx="25" cy="25" r="12"/>
+  <ellipse class="icon" cx="25" cy="25" rx="5" ry="12"/>
+  <line class="icon" x1="13" y1="25" x2="37" y2="25"/>
+  <line class="icon" x1="25" y1="13" x2="25" y2="37"/>
+</svg>

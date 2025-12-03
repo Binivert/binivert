@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200">
+  <defs>
+    <style>
+      @keyframes moveHand {
+        0%, 100% { transform: translateX(0) rotate(0deg); }
+        25% { transform: translateX(10px) rotate(5deg); }
+        75% { transform: translateX(-10px) rotate(-5deg); }
+      }
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 3px rgba(0, 240, 255, 0.5)); }
+        50% { filter: drop-shadow(0 0 10px rgba(0, 240, 255, 0.8)); }
+      }
+      .bg { fill: #0a0f1a; }
+      .border { stroke: #00f0ff; stroke-width: 2; fill: none; opacity: 0.5; }
+      .hand { fill: none; stroke: #00f0ff; stroke-width: 2.5; stroke-linecap: round; animation: moveHand 3s ease-in-out infinite; }
+      .hand-point { fill: #00f0ff; }
+      .game-screen { fill: #0d1520; stroke: #00f0ff; stroke-width: 1; }
+      .player { fill: #00ff80; animation: glow 2s infinite; }
+      .obstacle { fill: #ff0080; }
+      .arrow { fill: none; stroke: #ffbd2e; stroke-width: 2; stroke-dasharray: 5,3; }
+      .arrow-head { fill: #ffbd2e; }
+      .title { font-family: 'Courier New', monospace; font-size: 16px; font-weight: bold; fill: #00f0ff; filter: drop-shadow(0 0 4px rgba(0, 240, 255, 0.5)); }
+      .subtitle { font-family: 'Courier New', monospace; font-size: 10px; fill: #4a5568; }
+      .label { font-family: 'Courier New', monospace; font-size: 9px; fill: #a0d2db; }
+      .score { font-family: 'Courier New', monospace; font-size: 12px; fill: #00ff80; }
+    </style>
+  </defs>
+  
+  <rect class="bg" width="300" height="200" rx="10"/>
+  <rect class="border" x="2" y="2" width="296" height="196" rx="10"/>
+  
+  <!-- Hand gesture -->
+  <g transform="translate(20, 40)">
+    <g class="hand">
+      <!-- Palm -->
+      <path d="M35,70 Q25,60 28,45 L32,30 Q34,22 40,25 L43,40"/>
+      <!-- Pointing finger (extended) -->
+      <path d="M43,40 Q46,15 52,12 L55,35"/>
+      <!-- Other fingers (curled) -->
+      <path d="M55,35 Q58,28 62,30 L60,42"/>
+      <path d="M60,42 Q65,35 68,38 L65,48"/>
+      <path d="M65,48 Q72,45 73,50 L68,58"/>
+      <!-- Rest of palm -->
+      <path d="M68,58 Q75,65 70,75 L50,80 Q30,80 35,70"/>
+      
+      <!-- Tracking points -->
+      <circle class="hand-point" cx="52" cy="12" r="4"/>
+      <circle class="hand-point" cx="40" cy="25" r="3"/>
+    </g>
+    <text class="label" x="45" y="100" text-anchor="middle">GESTURE INPUT</text>
+  </g>
+  
+  <!-- Connection arrow -->
+  <g>
+    <path class="arrow" d="M100,70 Q130,60 150,70"/>
+    <polygon class="arrow-head" points="150,70 143,65 143,75"/>
+    <text class="label" x="125" y="55" text-anchor="middle">CONTROL</text>
+  </g>
+  
+  <!-- Game screen -->
+  <g transform="translate(155, 20)">
+    <rect class="game-screen" x="0" y="0" width="120" height="100" rx="5"/>
+    
+    <!-- Game elements -->
+    <!-- Player (controlled by gestures) -->
+    <rect class="player" x="25" y="70" width="15" height="20" rx="2"/>
+    
+    <!-- Obstacles -->
+    <rect class="obstacle" x="70" y="30" width="12" height="12" rx="2"/>
+    <rect class="obstacle" x="90" y="60" width="12" height="12" rx="2"/>
+    <rect class="obstacle" x="50" y="50" width="10" height="10" rx="2"/>
+    
+    <!-- Score -->
+    <text class="score" x="10" y="15">SCORE: 2450</text>
+    
+    <!-- Movement indicator -->
+    <path stroke="#00ff80" stroke-width="1" fill="none" stroke-dasharray="3,2" d="M32,65 L32,50 L45,50"/>
+    <polygon fill="#00ff80" points="45,50 40,47 40,53"/>
+  </g>
+  
+  <!-- Labels -->
+  <g transform="translate(155, 125)">
+    <text class="label" x="60" y="0" text-anchor="middle">GAME OUTPUT</text>
+  </g>
+  
+  <!-- Control hints -->
+  <g transform="translate(20, 130)">
+    <text class="label" x="0" y="0">☝ Point = Move</text>
+    <text class="label" x="0" y="12">✊ Fist = Action</text>
+    <text class="label" x="0" y="24">✋ Palm = Pause</text>
+  </g>
+  
+  <!-- Title -->
+  <text class="title" x="150" y="170" text-anchor="middle">VISIONARC</text>
+  <text class="subtitle" x="150" y="185" text-anchor="middle">Gesture-Controlled Gaming Interface</text>
+</svg>

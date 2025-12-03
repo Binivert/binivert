@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="30" viewBox="0 0 1000 30">
+  <defs>
+    <style>
+      .line { stroke: #00f0ff; stroke-width: 2; opacity: 0.4; }
+      .block { fill: #00f0ff; opacity: 0.15; }
+    </style>
+  </defs>
+  <rect width="1000" height="30" fill="transparent"/>
+  <line class="line" x1="50" y1="15" x2="950" y2="15"/>
+  <rect class="block" x="100" y="10" width="30" height="10"/>
+  <rect class="block" x="300" y="10" width="50" height="10"/>
+  <rect class="block" x="600" y="10" width="20" height="10"/>
+  <rect class="block" x="850" y="10" width="40" height="10"/>
+</svg>

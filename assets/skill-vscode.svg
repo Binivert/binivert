@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
+      }
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 5px #007acc); }
+        50% { filter: drop-shadow(0 0 15px #007acc); }
+      }
+      @keyframes borderPulse {
+        0%, 100% { stroke-opacity: 0.3; }
+        50% { stroke-opacity: 0.8; }
+      }
+      .card { fill: #0a0f1a; }
+      .border { stroke: #007acc; stroke-width: 2; fill: none; animation: borderPulse 2s infinite; }
+      .icon-group { animation: float 3s ease-in-out infinite 0.8s, glow 2s infinite; }
+      .name { font-family: 'Courier New', monospace; font-size: 11px; fill: #a0d2db; }
+      .vsc { fill: #007acc; }
+    </style>
+  </defs>
+  <rect class="card" width="100" height="100" rx="10"/>
+  <rect class="border" x="2" y="2" width="96" height="96" rx="10"/>
+  <g class="icon-group" transform="translate(25, 10)">
+    <path class="vsc" d="M35 5 L35 45 L10 35 L0 40 L0 10 L10 15 L35 5 Z M10 20 L25 25 L10 30 Z"/>
+  </g>
+  <text class="name" x="50" y="85" text-anchor="middle">VS CODE</text>
+</svg>
