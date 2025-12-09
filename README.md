@@ -84,7 +84,9 @@
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Binivert&theme=github_dark&utcOffset=3" alt="Productive Time" width="100%"/>
 </td>
 <td align="center" width="70%">
+  <div style="transform: scale(1.15); transform-origin: top;">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Binivert&bg_color=0d1117&color=00f0ff&line=00f0ff&point=ff0080&area=true&area_color=00f0ff&hide_border=true&height=200" alt="Activity Graph" width="100%"/>
+  </div>
 </td>
 </tr>
 </table>
