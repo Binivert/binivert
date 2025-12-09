@@ -85,7 +85,7 @@
 </td>
 <td align="center" width="70%">
   
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Binivert&bg_color=0d1117&color=00f0ff&line=00f0ff&point=ff0080&area=true&area_color=00f0ff&hide_border=true&height=300" alt="Activity Graph" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Binivert&bg_color=0d1117&color=00f0ff&line=00f0ff&point=ff0080&area=true&area_color=00f0ff&hide_border=true&height=400" alt="Activity Graph" width="100%" />
  
 </td>
 </tr>
