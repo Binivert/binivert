@@ -55,18 +55,21 @@
 
 <br><br>
 
-<!-- Profile Summary -->
+<!-- Profile Summary - Full Width -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Binivert&theme=github_dark" width="100%" alt="Profile Summary"/>
 
 <br><br>
 
-<!-- Stats Grid -->
-<table>
+<!-- Three Column Stats Grid -->
+<table width="100%">
 <tr>
-<td width="50%">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Binivert&theme=github_dark&utcOffset=3" alt="Productive Time" width="100%"/>
+<td align="center" width="33%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Binivert&theme=github_dark" alt="Stats" width="100%"/>
 </td>
-<td width="50%">
+<td align="center" width="33%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Binivert&theme=github_dark" alt="Top Languages" width="100%"/>
+</td>
+<td align="center" width="33%">
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Binivert&theme=github_dark" alt="Repos per Language" width="100%"/>
 </td>
 </tr>
@@ -74,26 +77,17 @@
 
 <br>
 
-<table>
+<!-- Two Column Row -->
+<table width="100%">
 <tr>
-<td width="50%">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Binivert&theme=github_dark" alt="Stats" width="100%"/>
+<td align="center" width="50%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Binivert&theme=github_dark&utcOffset=3" alt="Productive Time" width="100%"/>
 </td>
-<td width="50%">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Binivert&theme=github_dark" alt="Most Commit Language" width="100%"/>
+<td align="center" width="50%">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Binivert&bg_color=0d1117&color=00f0ff&line=00f0ff&point=ff0080&area=true&area_color=00f0ff&hide_border=true&height=200" alt="Activity Graph" width="100%"/>
 </td>
 </tr>
 </table>
-
-<br>
-
-<!-- Streak Stats -->
-<img src="https://streak-stats.demolab.com?user=Binivert&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=00F0FF&ring=00F0FF&fire=FF0080&currStreakNum=00F0FF&sideNums=00F0FF&currStreakLabel=A0D2DB&sideLabels=A0D2DB&dates=4A5568" alt="GitHub Streak" width="70%"/>
-
-<br><br>
-
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Binivert&bg_color=0d1117&color=00f0ff&line=00f0ff&point=ff0080&area=true&area_color=00f0ff&hide_border=true&custom_title=Contribution%20Timeline" width="100%" alt="Activity Graph"/>
 
 </div>
 
@@ -113,51 +107,63 @@
 
 <br><br>
 
-<!-- TECH GRID - 3 COLUMNS -->
+<!-- TECH GRID - 3 COLUMNS WITH BREATHING ROOM -->
 <table width="100%">
 <tr>
 <th align="center" width="33%">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/category-languages.svg" height="35"/>
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/category-languages.svg" height="40"/>
 </th>
 <th align="center" width="33%">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/category-mlvision.svg" height="35"/>
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/category-mlvision.svg" height="40"/>
 </th>
 <th align="center" width="33%">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/category-tools.svg" height="35"/>
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/category-tools.svg" height="40"/>
 </th>
 </tr>
 <tr>
 <td align="center" valign="top">
-<br>
-<a href="#"><img src="https://skillicons.dev/icons?i=python" width="55" height="55" alt="Python"/></a>
-<a href="#"><img src="https://skillicons.dev/icons?i=cpp" width="55" height="55" alt="C++"/></a>
-<a href="#"><img src="https://skillicons.dev/icons?i=java" width="55" height="55" alt="Java"/></a>
 <br><br>
-<a href="#"><img src="https://skillicons.dev/icons?i=js" width="55" height="55" alt="JavaScript"/></a>
-<a href="#"><img src="https://skillicons.dev/icons?i=html" width="55" height="55" alt="HTML"/></a>
-<a href="#"><img src="https://skillicons.dev/icons?i=css" width="55" height="55" alt="CSS"/></a>
-<br><br>
-</td>
-<td align="center" valign="top">
-<br>
-<a href="#"><img src="https://skillicons.dev/icons?i=tensorflow" width="55" height="55" alt="TensorFlow"/></a>
-<a href="#"><img src="https://skillicons.dev/icons?i=pytorch" width="55" height="55" alt="PyTorch"/></a>
-<a href="#"><img src="https://skillicons.dev/icons?i=opencv" width="55" height="55" alt="OpenCV"/></a>
-<br><br>
-<a href="#"><img src="https://skillicons.dev/icons?i=matlab" width="55" height="55" alt="MATLAB"/></a>
-<a href="#"><img src="https://img.shields.io/badge/MediaPipe-00F0FF?style=for-the-badge&logo=google&logoColor=black" height="35" alt="MediaPipe"/></a>
-<a href="#"><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" height="35" alt="NumPy"/></a>
+<a href="#"><img src="https://skillicons.dev/icons?i=python" width="60" height="60" alt="Python"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="#"><img src="https://skillicons.dev/icons?i=cpp" width="60" height="60" alt="C++"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="#"><img src="https://skillicons.dev/icons?i=java" width="60" height="60" alt="Java"/></a>
+<br><br><br>
+<a href="#"><img src="https://skillicons.dev/icons?i=js" width="60" height="60" alt="JavaScript"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="#"><img src="https://skillicons.dev/icons?i=html" width="60" height="60" alt="HTML"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="#"><img src="https://skillicons.dev/icons?i=css" width="60" height="60" alt="CSS"/></a>
 <br><br>
 </td>
 <td align="center" valign="top">
-<br>
-<a href="#"><img src="https://skillicons.dev/icons?i=git" width="55" height="55" alt="Git"/></a>
-<a href="#"><img src="https://skillicons.dev/icons?i=docker" width="55" height="55" alt="Docker"/></a>
-<a href="#"><img src="https://skillicons.dev/icons?i=flask" width="55" height="55" alt="Flask"/></a>
 <br><br>
-<a href="#"><img src="https://skillicons.dev/icons?i=linux" width="55" height="55" alt="Linux"/></a>
-<a href="#"><img src="https://skillicons.dev/icons?i=vscode" width="55" height="55" alt="VS Code"/></a>
-<a href="#"><img src="https://skillicons.dev/icons?i=github" width="55" height="55" alt="GitHub"/></a>
+<a href="#"><img src="https://skillicons.dev/icons?i=tensorflow" width="60" height="60" alt="TensorFlow"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="#"><img src="https://skillicons.dev/icons?i=pytorch" width="60" height="60" alt="PyTorch"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="#"><img src="https://skillicons.dev/icons?i=opencv" width="60" height="60" alt="OpenCV"/></a>
+<br><br><br>
+<a href="#"><img src="https://skillicons.dev/icons?i=matlab" width="60" height="60" alt="MATLAB"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="#"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/icon-mediapipe.svg" width="60" height="60" alt="MediaPipe"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="#"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/icon-numpy.svg" width="60" height="60" alt="NumPy"/></a>
+<br><br>
+</td>
+<td align="center" valign="top">
+<br><br>
+<a href="#"><img src="https://skillicons.dev/icons?i=git" width="60" height="60" alt="Git"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="#"><img src="https://skillicons.dev/icons?i=docker" width="60" height="60" alt="Docker"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="#"><img src="https://skillicons.dev/icons?i=flask" width="60" height="60" alt="Flask"/></a>
+<br><br><br>
+<a href="#"><img src="https://skillicons.dev/icons?i=linux" width="60" height="60" alt="Linux"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="#"><img src="https://skillicons.dev/icons?i=vscode" width="60" height="60" alt="VS Code"/></a>
+&nbsp;&nbsp;&nbsp;
+<a href="#"><img src="https://skillicons.dev/icons?i=github" width="60" height="60" alt="GitHub"/></a>
 <br><br>
 </td>
 </tr>
@@ -185,10 +191,10 @@
 <tr>
 <td align="center" width="33%">
 <a href="https://github.com/Binivert/SL-Interpreter">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/project-interpreter.svg" width="150" height="150" alt="SL-Interpreter"/>
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/project-interpreter.svg" width="160" height="160" alt="SL-Interpreter"/>
 </a>
 <br><br>
-<h3>🤟 SL-Interpreter</h3>
+<h3>🖥️ SL-Interpreter</h3>
 <p><em>Real-time sign language to text/voice translation achieving 90% accuracy. Built with TensorFlow & OpenCV in collaboration with ENAD.</em></p>
 <br>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
@@ -197,7 +203,7 @@
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/Binivert/Security-System">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/project-security.svg" width="150" height="150" alt="Security-System"/>
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/project-security.svg" width="160" height="160" alt="Security-System"/>
 </a>
 <br><br>
 <h3>🔐 Smart Security</h3>
@@ -209,7 +215,7 @@
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/Binivert/VisionArc">
-<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/project-visionarc.svg" width="150" height="150" alt="VisionArc"/>
+<img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/project-visionarc.svg" width="160" height="160" alt="VisionArc"/>
 </a>
 <br><br>
 <h3>🎮 VisionArc</h3>
