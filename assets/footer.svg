@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="80" viewBox="0 0 1200 80" preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="130" viewBox="0 0 1200 80" preserveAspectRatio="xMidYMid meet">
   <defs>
     <style>
       @keyframes travel {
@@ -33,4 +33,5 @@
   
   <text class="text" x="600" y="45" text-anchor="middle">[ CONNECTION ESTABLISHED ] — Ready to build the future together</text>
   <text class="subtext" x="600" y="65" text-anchor="middle">Addis Ababa, Ethiopia • Open for opportunities worldwide</text>
+
 </svg>
