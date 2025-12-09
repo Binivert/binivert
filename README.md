@@ -541,11 +541,11 @@
 
 <br>
 
-<a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="45"/></a>
+<a href="https://linkedin.com/in/bintrion"><img src="https://img.shields.io/badge/Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="45"/></a>
 &nbsp;&nbsp;
 <a href="https://ravini.net"><img src="https://img.shields.io/badge/Visit_Ravini.net-00F0FF?style=for-the-badge&logo=google-chrome&logoColor=black" height="45"/></a>
 &nbsp;&nbsp;
-<a href="https://discord.com/users/YOUR_DISCORD"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="45"/></a>
+<a href="https://discord.com/users/binivert"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="45"/></a>
 
 <br><br>
 
@@ -559,10 +559,6 @@
 
 <div align="center">
 
-```
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-```
 
-**Thanks for visiting. Let's build something extraordinary.**
 
 </div>
