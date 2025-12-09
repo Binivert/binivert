@@ -150,7 +150,7 @@
 &nbsp;&nbsp;&nbsp;
 <a href="#"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/icon-mediapipe.svg" width="60" height="60" alt="MediaPipe"/></a>
 &nbsp;&nbsp;&nbsp;
-<a href="#"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/icon-numpy.svg" width="60" height="60" alt="NumPy"/></a>
+<a href="#">  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="60" alt="numpy logo"  />></a>
 <br><br>
 </td>
 <td align="center" valign="top">
