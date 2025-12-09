@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="50" viewBox="0 0 500 50">
+  <defs>
+    <style>
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .text {
+        font-family: 'Courier New', monospace;
+        font-size: 32px;
+        font-weight: bold;
+        fill: #00f0ff;
+        filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.6));
+      }
+      .cursor { fill: #00f0ff; animation: blink 1s infinite; }
+    </style>
+  </defs>
+  <text class="text" x="250" y="35" text-anchor="middle">▶ CURRENTLY BUILDING</text>
+  <rect class="cursor" x="430" y="15" width="15" height="25"/>
+</svg>

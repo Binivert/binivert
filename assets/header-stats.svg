@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="60" viewBox="0 0 450 60">
+  <defs>
+    <style>
+      .header-text {
+        font-family: 'Courier New', monospace;
+        font-size: 36px;
+        font-weight: bold;
+        fill: #00f0ff;
+        filter: drop-shadow(0 0 6px rgba(0, 240, 255, 0.5));
+      }
+      .bracket {
+        font-family: 'Courier New', monospace;
+        font-size: 36px;
+        fill: #ff0080;
+        filter: drop-shadow(0 0 4px rgba(255, 0, 128, 0.4));
+      }
+    </style>
+  </defs>
+  <rect width="450" height="60" fill="transparent"/>
+  <text class="bracket" x="20" y="40">▹</text>
+  <text class="header-text" x="55" y="40">NEURAL METRICS</text>
+  <text class="bracket" x="400" y="40">◂</text>
+</svg>

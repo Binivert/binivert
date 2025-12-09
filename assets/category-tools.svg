@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="35" viewBox="0 0 200 35">
+  <defs>
+    <style>
+      @keyframes pulse {
+        0%, 100% { filter: drop-shadow(0 0 3px rgba(255, 189, 46, 0.6)); }
+        50% { filter: drop-shadow(0 0 8px rgba(255, 189, 46, 0.9)); }
+      }
+      .text {
+        font-family: 'Courier New', monospace;
+        font-size: 16px;
+        font-weight: bold;
+        fill: #ffbd2e;
+        animation: pulse 2s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+  <text class="text" x="100" y="24" text-anchor="middle">◆ TOOLS / DEVOPS ◆</text>
+</svg>

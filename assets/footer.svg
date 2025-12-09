@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="80" viewBox="0 0 1200 80" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <style>
+      @keyframes travel {
+        0% { transform: translateX(-50px); }
+        100% { transform: translateX(1250px); }
+      }
+      .bg { fill: #0a0f1a; }
+      .line { stroke: #00f0ff; stroke-width: 1; opacity: 0.3; }
+      .text {
+        font-family: 'Courier New', monospace;
+        font-size: 16px;
+        fill: #00f0ff;
+        filter: drop-shadow(0 0 5px rgba(0, 240, 255, 0.5));
+      }
+      .subtext {
+        font-family: 'Courier New', monospace;
+        font-size: 12px;
+        fill: #4a5568;
+      }
+      .dot { fill: #00f0ff; opacity: 0.4; }
+      .traveler { fill: #00f0ff; opacity: 0.6; animation: travel 4s linear infinite; }
+    </style>
+  </defs>
+  
+  <rect class="bg" width="1200" height="80"/>
+  
+  <line class="line" x1="50" y1="15" x2="1150" y2="15"/>
+  <circle class="dot" cx="50" cy="15" r="3"/>
+  <circle class="dot" cx="600" cy="15" r="4"/>
+  <circle class="dot" cx="1150" cy="15" r="3"/>
+  <circle class="traveler" cx="0" cy="15" r="5"/>
+  
+  <text class="text" x="600" y="45" text-anchor="middle">[ CONNECTION ESTABLISHED ] — Ready to build the future together</text>
+  <text class="subtext" x="600" y="65" text-anchor="middle">Addis Ababa, Ethiopia • Open for opportunities worldwide</text>
+</svg>

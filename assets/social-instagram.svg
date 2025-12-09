@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <defs>
+    <style>
+      .bg { fill: #0a0f1a; stroke: #e4405f; stroke-width: 2; }
+      .icon { fill: none; stroke: #e4405f; stroke-width: 2.5; filter: drop-shadow(0 0 4px rgba(228, 64, 95, 0.6)); }
+      .dot { fill: #e4405f; filter: drop-shadow(0 0 4px rgba(228, 64, 95, 0.6)); }
+    </style>
+  </defs>
+  <rect class="bg" x="2" y="2" width="51" height="51" rx="12"/>
+  <rect class="icon" x="14" y="14" width="27" height="27" rx="7"/>
+  <circle class="icon" cx="27.5" cy="27.5" r="7"/>
+  <circle class="dot" cx="36" cy="19" r="2.5"/>
+</svg>

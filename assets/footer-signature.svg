@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="100" viewBox="0 0 1000 100">
+  <defs>
+    <style>
+      @keyframes travel {
+        0% { transform: translateX(-50px); opacity: 0; }
+        10% { opacity: 0.6; }
+        90% { opacity: 0.6; }
+        100% { transform: translateX(1050px); opacity: 0; }
+      }
+      .bg { fill: #0a0f1a; }
+      .main-text {
+        font-family: 'Courier New', monospace;
+        font-size: 18px;
+        fill: #00f0ff;
+        filter: drop-shadow(0 0 4px rgba(0, 240, 255, 0.4));
+      }
+      .sub-text {
+        font-family: 'Courier New', monospace;
+        font-size: 12px;
+        fill: #4a5568;
+      }
+      .line {
+        stroke: #00f0ff;
+        stroke-width: 1;
+        opacity: 0.2;
+      }
+      .dot {
+        fill: #00f0ff;
+        opacity: 0.4;
+      }
+      .traveler {
+        fill: #00f0ff;
+        opacity: 0.5;
+        animation: travel 6s linear infinite;
+      }
+    </style>
+  </defs>
+  
+  <rect class="bg" width="1000" height="100"/>
+  
+  <line class="line" x1="100" y1="15" x2="900" y2="15"/>
+  <circle class="dot" cx="100" cy="15" r="3"/>
+  <circle class="dot" cx="500" cy="15" r="3"/>
+  <circle class="dot" cx="900" cy="15" r="3"/>
+  <circle class="traveler" cx="0" cy="15" r="4"/>
+  
+  <text class="main-text" x="500" y="50" text-anchor="middle">[ CONNECTION ESTABLISHED ] — Ready to build the future</text>
+  <text class="sub-text" x="500" y="72" text-anchor="middle">Let's create something extraordinary together | bintrion@gmail.com</text>
+  
+  <line class="line" x1="100" y1="90" x2="900" y2="90"/>
+  <circle class="dot" cx="100" cy="90" r="3"/>
+  <circle class="dot" cx="500" cy="90" r="3"/>
+  <circle class="dot" cx="900" cy="90" r="3"/>
+</svg>

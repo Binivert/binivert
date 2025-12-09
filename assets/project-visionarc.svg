@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <style>
+      @keyframes move {
+        0%, 100% { transform: translate(0, 0); }
+        25% { transform: translate(5px, -3px); }
+        50% { transform: translate(-3px, 5px); }
+        75% { transform: translate(3px, 3px); }
+      }
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 5px rgba(0, 240, 255, 0.5)); }
+        50% { filter: drop-shadow(0 0 15px rgba(0, 240, 255, 0.9)); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.8; }
+      }
+      .bg { fill: #0a0f1a; }
+      .border { stroke: #00f0ff; stroke-width: 2; fill: none; opacity: 0.5; }
+      .joystick-base {
+        fill: none;
+        stroke: #00f0ff;
+        stroke-width: 3;
+      }
+      .joystick-stick {
+        stroke: #00f0ff;
+        stroke-width: 4;
+        stroke-linecap: round;
+        animation: glow 3s ease-in-out infinite;
+      }
+      .joystick-ball {
+        fill: #00f0ff;
+        animation: move 2s ease-in-out infinite, glow 3s ease-in-out infinite;
+      }
+      .button {
+        fill: none;
+        stroke: #ff0080;
+        stroke-width: 2;
+        animation: pulse 1.5s ease-in-out infinite;
+      }
+      .button-fill {
+        fill: #ff0080;
+        opacity: 0.3;
+      }
+      .dpad {
+        fill: none;
+        stroke: #00ff80;
+        stroke-width: 2;
+      }
+      .dot { fill: #00f0ff; opacity: 0.5; }
+    </style>
+  </defs>
+  
+  <rect class="bg" width="160" height="160" rx="15"/>
+  <rect class="border" x="3" y="3" width="154" height="154" rx="15"/>
+  
+  <!-- Joystick base -->
+  <ellipse class="joystick-base" cx="65" cy="115" rx="30" ry="10"/>
+  
+  <!-- Joystick stick -->
+  <line class="joystick-stick" x1="65" y1="115" x2="65" y2="65"/>
+  
+  <!-- Joystick ball -->
+  <circle class="joystick-ball" cx="65" cy="58" r="15"/>
+  
+  <!-- Action buttons -->
+  <circle class="button-fill" cx="115" cy="55" r="10"/>
+  <circle class="button" cx="115" cy="55" r="10"/>
+  <circle class="button-fill" cx="135" cy="75" r="8" style="animation-delay: 0.3s;"/>
+  <circle class="button" cx="135" cy="75" r="8" style="animation-delay: 0.3s;"/>
+  <circle class="button-fill" cx="115" cy="95" r="8" style="animation-delay: 0.6s;"/>
+  <circle class="button" cx="115" cy="95" r="8" style="animation-delay: 0.6s;"/>
+  
+  <!-- D-pad hint -->
+  <path class="dpad" d="M25,70 L25,55 L35,55 L35,45 L45,45 L45,55 L55,55 L55,70 L45,70 L45,80 L35,80 L35,70 Z"/>
+  
+  <!-- Corner dots -->
+  <circle class="dot" cx="20" cy="20" r="3"/>
+  <circle class="dot" cx="140" cy="20" r="3"/>
+  <circle class="dot" cx="20" cy="140" r="3"/>
+  <circle class="dot" cx="140" cy="140" r="3"/>
+</svg>

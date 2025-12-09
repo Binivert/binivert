@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <style>
+      @keyframes pulse {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes glow {
+        0%, 100% { filter: drop-shadow(0 0 3px rgba(0, 240, 255, 0.5)); }
+        50% { filter: drop-shadow(0 0 10px rgba(0, 240, 255, 0.9)); }
+      }
+      @keyframes scan {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(5px); }
+      }
+      .bg { fill: #0a0f1a; }
+      .border { stroke: #00f0ff; stroke-width: 2; fill: none; opacity: 0.5; }
+      .bracket {
+        font-family: 'Courier New', monospace;
+        font-size: 48px;
+        font-weight: bold;
+        fill: #00f0ff;
+        animation: glow 3s ease-in-out infinite;
+      }
+      .bracket-accent {
+        font-family: 'Courier New', monospace;
+        font-size: 48px;
+        font-weight: bold;
+        fill: #ff0080;
+        opacity: 0.7;
+      }
+      .code-line {
+        stroke: #00ff80;
+        stroke-width: 3;
+        stroke-linecap: round;
+        animation: pulse 2s ease-in-out infinite;
+      }
+      .code-line-2 {
+        stroke: #00f0ff;
+        stroke-width: 2;
+        stroke-linecap: round;
+        animation: pulse 2s ease-in-out infinite 0.3s;
+      }
+      .code-line-3 {
+        stroke: #ff0080;
+        stroke-width: 2;
+        stroke-linecap: round;
+        animation: pulse 2s ease-in-out infinite 0.6s;
+      }
+      .cursor {
+        fill: #00f0ff;
+        animation: blink 1s infinite;
+      }
+      .arrow {
+        stroke: #00ff80;
+        stroke-width: 2;
+        fill: none;
+        animation: scan 1.5s ease-in-out infinite;
+      }
+      .dot { fill: #00f0ff; opacity: 0.5; }
+    </style>
+  </defs>
+  
+  <rect class="bg" width="160" height="160" rx="15"/>
+  <rect class="border" x="3" y="3" width="154" height="154" rx="15"/>
+  
+  <!-- Code brackets -->
+  <text class="bracket-accent" x="25" y="95">{</text>
+  <text class="bracket" x="28" y="92">{</text>
+  <text class="bracket-accent" x="115" y="95">}</text>
+  <text class="bracket" x="112" y="92">}</text>
+  
+  <!-- Code lines inside brackets -->
+  <line class="code-line" x1="55" y1="60" x2="105" y2="60"/>
+  <line class="code-line-2" x1="60" y1="75" x2="100" y2="75"/>
+  <line class="code-line-3" x1="55" y1="90" x2="95" y2="90"/>
+  <line class="code-line-2" x1="60" y1="105" x2="105" y2="105"/>
+  
+  <!-- Blinking cursor -->
+  <rect class="cursor" x="108" y="100" width="8" height="12"/>
+  
+  <!-- Parsing arrow -->
+  <path class="arrow" d="M80,125 L80,140 M75,135 L80,142 L85,135"/>
+  
+  <!-- Corner dots -->
+  <circle class="dot" cx="20" cy="20" r="3"/>
+  <circle class="dot" cx="140" cy="20" r="3"/>
+  <circle class="dot" cx="20" cy="140" r="3"/>
+  <circle class="dot" cx="140" cy="140" r="3"/>
+</svg>

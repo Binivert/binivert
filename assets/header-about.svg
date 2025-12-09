@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="60" viewBox="0 0 400 60">
+  <defs>
+    <style>
+      .header-text {
+        font-family: 'Courier New', monospace;
+        font-size: 36px;
+        font-weight: bold;
+        fill: #00f0ff;
+        filter: drop-shadow(0 0 6px rgba(0, 240, 255, 0.5));
+      }
+      .bracket {
+        font-family: 'Courier New', monospace;
+        font-size: 36px;
+        fill: #ff0080;
+        filter: drop-shadow(0 0 4px rgba(255, 0, 128, 0.4));
+      }
+      .underline {
+        stroke: #00f0ff;
+        stroke-width: 2;
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <rect width="400" height="60" fill="transparent"/>
+  <text class="bracket" x="50" y="38">◈</text>
+  <text class="header-text" x="85" y="38">ABOUT.ME</text>
+  <text class="bracket" x="310" y="38">◈</text>
+  <line class="underline" x1="50" y1="50" x2="350" y2="50"/>
+</svg>

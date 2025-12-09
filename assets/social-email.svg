@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <defs>
+    <style>
+      .bg { fill: #0a0f1a; stroke: #00f0ff; stroke-width: 2; }
+      .icon { fill: none; stroke: #00f0ff; stroke-width: 2.5; filter: drop-shadow(0 0 4px rgba(0, 240, 255, 0.6)); }
+    </style>
+  </defs>
+  <rect class="bg" x="2" y="2" width="51" height="51" rx="12"/>
+  <rect class="icon" x="12" y="16" width="31" height="23" rx="3"/>
+  <polyline class="icon" points="12,16 27.5,31 43,16"/>
+</svg>
