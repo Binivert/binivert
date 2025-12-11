@@ -5,15 +5,15 @@
 <br>
 
 <!-- SOCIAL LINKS -->
-<a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-linkedin.svg" width="55" height="55" alt="LinkedIn"/></a>
+<a href="https://linkedin.com/in/bintrion"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-linkedin.svg" width="55" height="55" alt="LinkedIn"/></a>
 &nbsp;&nbsp;
-<a href="https://instagram.com/YOUR_INSTAGRAM"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-instagram.svg" width="55" height="55" alt="Instagram"/></a>
+<a href="https://instagram.com/biniv_x"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-instagram.svg" width="55" height="55" alt="Instagram"/></a>
 &nbsp;&nbsp;
-<a href="https://leetcode.com/YOUR_LEETCODE"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-leetcode.svg" width="55" height="55" alt="LeetCode"/></a>
+<a href="https://leetcode.com/binivert"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-leetcode.svg" width="55" height="55" alt="LeetCode"/></a>
 &nbsp;&nbsp;
 <a href="mailto:bintrion@gmail.com"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-email.svg" width="55" height="55" alt="Email"/></a>
 &nbsp;&nbsp;
-<a href="https://discord.com/users/YOUR_DISCORD"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-discord.svg" width="55" height="55" alt="Discord"/></a>
+<a href="https://discord.com/users/binivert"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-discord.svg" width="55" height="55" alt="Discord"/></a>
 &nbsp;&nbsp;
 <a href="https://ravini.net"><img src="https://raw.githubusercontent.com/Binivert/Binivert/main/assets/social-website.svg" width="55" height="55" alt="Website"/></a>
 
