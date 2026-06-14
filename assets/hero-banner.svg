@@ -173,10 +173,10 @@
   <circle class="dot-accent" cx="895" cy="155" r="2"/>
   
   <!-- Glitch layers -->
-  <text class="glitch-r" x="500" y="130" text-anchor="middle">BINIYAM BONGER</text>
-  <text class="glitch-c" x="500" y="130" text-anchor="middle">BINIYAM BONGER</text>
-  <text class="glitch-main" x="500" y="130" text-anchor="middle">BINIYAM BONGER</text>
-  <text class="main-text" x="500" y="130" text-anchor="middle">BINIYAM BONGER</text>
+  <text class="glitch-r" x="500" y="130" text-anchor="middle">MIKIYAS BINIYAM</text>
+  <text class="glitch-c" x="500" y="130" text-anchor="middle">MIKIYAS BINIYAM</text>
+  <text class="glitch-main" x="500" y="130" text-anchor="middle">MIKIYAS BINIYAM</text>
+  <text class="main-text" x="500" y="130" text-anchor="middle">MIKIYAS BINIYAM</text>
   
   <!-- Subtitle -->
   <text class="subtitle" x="500" y="175" text-anchor="middle">COMPUTER VISION • AI ENGINEER • INNOVATOR</text>
